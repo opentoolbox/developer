@@ -1,14 +1,3 @@
 title: The Developer's Toolbox
 theme: jekyll-theme-slate
 show_downloads: false
-
-
-- title: Group of Things
-  url: /group/
-  sublinks:
-    - title: Sub-item 1
-      url: /group/si1
-    - title: Sub-item 2
-      url: /group/si2
-    - title: Sub-item 3
-      url: /group/si3

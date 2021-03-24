@@ -1,3 +1,7 @@
 title: The Developer's Toolbox
 remote_theme: chrisrhymes/bulma-clean-theme
 show_downloads: false
+lang: it
+
+show_sidebar: true
+menubar: main_menu

@@ -1,8 +1,7 @@
 style: is-dark
 height: is-small
 items:
-  - title: Entra nel server!
-    subtitle: Entra in contatto con la community di sviluppatori di start2impact!
+  - subtitle: Entra in contatto con la community di sviluppatori di start2impact!
     icon: fa-discord
     icon_brand: true
     description: >

@@ -8,12 +8,7 @@ items:
       Nel nostro server potrai conoscere sviluppatori come te, stringere amicizie, risolvere dubbi e chiedere consigli.
     call_to_action_name: Entra
     call_to_action_link: https://discord.gg/k96x5wB2
-    
-    
-    
-style: is-info
-height: is-medium
-items:
+
   - subtitle: Open Source
     icon: fa-github
     icon_brand: true

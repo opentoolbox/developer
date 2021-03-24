@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Example Landing Page
-subtitle: This is an example landing page
+title: The Developer's Toolbox
+subtitle: Trova la risorsa che fa per te.
 callouts: callouts
 hero_height: is-large
 

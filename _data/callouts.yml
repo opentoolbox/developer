@@ -1,15 +1,15 @@
 style: is-info
 height: is-medium
 items:
-  - subtitle: Entra in contatto con la community di sviluppatori di start2impact!
+  - title: Discord
     icon: fa-discord
     icon_brand: true
     description: >
-      Nel nostro server potrai conoscere sviluppatori come te, stringere amicizie, risolvere dubbi e chiedere consigli.
+      Nel nostro server potrai conoscere sviluppatori come te, risolvere dubbi e chiedere consigli.
     call_to_action_name: Entra
     call_to_action_link: https://discord.gg/k96x5wB2
 
-  - subtitle: Open Source
+  - title: GitHub
     icon: fa-github
     icon_brand: true
     description: >

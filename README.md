@@ -1,5 +1,9 @@
-## Cos'è?
+---
+title: Test
+---
+
+# Cos'è?
 bla bla bla
 
-## Titolo
+# Titolo
 bla bla bla

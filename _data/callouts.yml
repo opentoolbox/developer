@@ -1,13 +1,13 @@
 style: is-light
-height: is-medium
+height: is-small
 items:
-  - title: Example callout 1
-    subtitle: Example subtitle 1
-    icon: fa-github
+  - title: Entra nel server!
+    subtitle: Entra in contatto con la community di sviluppatori di start2impact!
+    icon: fa-discord
     icon_brand: true
     description: >
-      The example description text goes here and can be multiple lines.
-
-      For example, such as this. 
-    call_to_action_name: Call to action 1
-    call_to_action_link: /page-1/
+      Nel nostro server potrai conoscere sviluppatori come te, stringere amicizie, risolvere dubbi e chiedere consigli.
+      
+      Qualsiasi sia il percorso che stai seguendo troverai qualcuno che potrà darti una mano a raggiungere i tuoi obbiettivi.
+    call_to_action_name: Entra
+    call_to_action_link: https://discord.gg/k96x5wB2

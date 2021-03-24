@@ -5,7 +5,6 @@ subtitle: This is an example landing page
 callouts: callouts
 
 show_sidebar: false
-menubar: example_menu
 ---
 
 # Cos'è?

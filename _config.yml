@@ -1,7 +1,9 @@
 title: The Developer's Toolbox
+favicon: /path/to/favicon.png
+lang: it
+
 remote_theme: chrisrhymes/bulma-clean-theme
 show_downloads: false
-lang: it
 
 show_sidebar: true
 menubar: main_menu

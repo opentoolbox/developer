@@ -9,6 +9,7 @@ show_sidebar: true
 menubar: main_menu
 
 footer_menu: footer_menu
+fixed_navbar: bottom
 
 defaults:
   - scope:

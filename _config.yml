@@ -6,7 +6,6 @@ remote_theme: chrisrhymes/bulma-clean-theme
 show_downloads: false
 
 show_sidebar: true
-#menubar: main_menu
 
 footer_menu: footer_menu
 fixed_navbar: bottom
@@ -16,7 +15,7 @@ defaults:
       path: ""
     values:
       show_sidebar: true
-      menubar: main_menu
+      #menubar: main_menu
       layout: page
       hero_height: is-small
       hero_darken: true

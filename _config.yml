@@ -17,3 +17,5 @@ defaults:
       show_sidebar: true
       menubar: main_menu
       layout: page
+      hero_darken: true
+      hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg

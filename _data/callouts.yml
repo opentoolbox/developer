@@ -6,7 +6,19 @@ items:
     icon_brand: true
     description: >
       Nel nostro server potrai conoscere sviluppatori come te, stringere amicizie, risolvere dubbi e chiedere consigli.
-      
-      Qualsiasi sia il percorso che stai seguendo troverai qualcuno che potrà darti una mano a raggiungere i tuoi obbiettivi.
     call_to_action_name: Entra
     call_to_action_link: https://discord.gg/k96x5wB2
+    
+    
+    
+style: is-info
+height: is-medium
+items:
+  - subtitle: Open Source
+    icon: fa-github
+    icon_brand: true
+    description: >
+      Questo è il primo di tanti progetti che sviluppiamo insieme alla community.
+      Contribuisci anche tu!
+    call_to_action_name: Vedi su GitHub
+    call_to_action_link: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io

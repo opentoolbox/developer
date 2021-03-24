@@ -20,3 +20,7 @@ defaults:
       hero_height: is-small
       hero_darken: true
       hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
+
+# plugins:
+#   - jekyll-remote-theme
+#   - jekyll-feed

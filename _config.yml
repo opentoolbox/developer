@@ -16,3 +16,4 @@ defaults:
     values:
       show_sidebar: true
       menubar: main_menu
+      layout: page

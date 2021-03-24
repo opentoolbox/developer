@@ -1,5 +1,5 @@
-style: is-dark
-height: is-small
+style: is-info
+height: is-medium
 items:
   - subtitle: Entra in contatto con la community di sviluppatori di start2impact!
     icon: fa-discord

@@ -1,5 +1,5 @@
 title: The Developer's Toolbox
-favicon: /path/to/favicon.png
+# favicon: /path/to/favicon.ico
 lang: it
 
 remote_theme: chrisrhymes/bulma-clean-theme

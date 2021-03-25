@@ -22,7 +22,7 @@ Se decidi di contribuire con una **pull request** ricordati di farlo con gli giu
 
 ### 🧪 Jekyll & Ruby
 
-Questo sito è progettato in *Jekyll*, un motore di templating scritto in *Ruby*. Per installarlo segui [questa guida](#).
+Questo sito è progettato in *Jekyll*, un motore di templating scritto in *Ruby*. Per installarlo segui [questa guida](https://jekyllrb.com/docs/installation/).
 
 ### 🔧 Make
 Per semplificarti la vita abbiamo predisposto dei comandi semplificati con *Make*.

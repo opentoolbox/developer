@@ -1,0 +1,36 @@
+intro: |-
+  This is some introduction text for the showcases.
+  
+  ## Example Heading
+  It can convert Markdown format
+
+items:
+  - title: Example showcase item
+    subtitle: Example subtitle
+    description: |-
+      This is the example description for this item that you are showcasing and has an image, title, description, tags and a link.
+    features:
+      - This is a feature
+      - This is a feature
+    features_styles: is-centered is-outlined is-primary
+    image: https://via.placeholder.com/1024x788
+    image_ratio: is-16by9
+    link: http://www.example.com
+    link_text: View example
+    tags: PHP,CSS,JavaScript
+    github: thedevelopertoolbox/thedevelopertoolbox.github.io
+
+  - title: Example showcase item
+    subtitle: Example subtitle
+    description: |-
+      This is the example description for this item that you are showcasing and has an image, title, description, tags and a link.
+    features:
+      - This is a feature
+      - This is a feature
+    features_styles: is-centered is-outlined is-primary
+    image: https://via.placeholder.com/1024x788
+    image_ratio: is-16by9
+    link: http://www.example.com
+    link_text: View example
+    tags: PHP,CSS,JavaScript
+    github: thedevelopertoolbox/thedevelopertoolbox.github.io

@@ -24,14 +24,9 @@ defaults:
       path: ""
     values:
       show_sidebar: true
-      #menubar: main_menu
       layout: page
-      hero_height: is-small
+      hero_height: is-medium
       hero_darken: true
       hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
       image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
       author: community
-
-# plugins:
-#   - jekyll-remote-theme
-#   - jekyll-feed

@@ -5,7 +5,7 @@ init:
 	bundle install
 	make build
 
-serve:
+start:
 	bundle exec jekyll serve
 
 build:

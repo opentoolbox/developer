@@ -19,6 +19,10 @@ social:
   links:
     - https://www.facebook.com/groups/193125725354173
 
+algolia:
+  application_id: 'ZL5SYWH5RE'
+  index_name: 'dev_toolbox'
+
 defaults:
   - scope:
       path: ""

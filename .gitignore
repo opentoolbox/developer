@@ -2,3 +2,5 @@
 .jekyll-cache
 vendor
 _site
+.env
+_algolia_api_key

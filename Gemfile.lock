@@ -283,6 +283,7 @@ DEPENDENCIES
   github-pages
   jekyll-algolia
   jekyll-environment-variables
+  jekyll-mentions
   webrick (~> 1.7)
 
 BUNDLED WITH

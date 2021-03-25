@@ -41,6 +41,8 @@ $size-7: 0.85em;
 //$title-weight: 500;
 //$subtitle-weight: 400;
 $subtitle-color: $grey-dark;
+$mention-weight: bold;
+$mention-color: $link;
 
 $border-width: 2px;
 $border: $grey;
@@ -110,6 +112,11 @@ $file-cta-background-color: $grey-darker;
 $progress-bar-background-color: $grey-dark;
 
 $panel-heading-background-color: $grey-dark;
+
+.user-mention {
+  font-weight: $mention-weight;
+  color: $mention-color;
+}
 
 .pagination-previous, .pagination-next {
     &[disabled] {

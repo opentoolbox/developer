@@ -1,5 +1,6 @@
 title: The Developer's Toolbox
-# favicon: /path/to/favicon.ico
+favicon: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
+logo: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 lang: it
 
 remote_theme: chrisrhymes/bulma-clean-theme
@@ -13,6 +14,11 @@ fixed_navbar: bottom
 paginate: 5
 paginate_path: "/blog/page:num"
 
+social:
+  name: Mastermind Sviluppo Web & App - start2impact
+  links:
+    - https://www.facebook.com/groups/193125725354173
+
 defaults:
   - scope:
       path: ""
@@ -23,6 +29,8 @@ defaults:
       hero_height: is-small
       hero_darken: true
       hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
+      image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
+      author: community
 
 # plugins:
 #   - jekyll-remote-theme

@@ -1,7 +1,9 @@
-- name: Page 1
-  link: /page-1/
+- name: Risorse
+  link: /resources/
+  dropdown: 
+    - name: Front-End
+      link: /resources/frontend/
+    - name: Back-End
+      link: /resources/backend/
 - name: Blog
   link: /blog/
-  dropdown: 
-    - name: Page 2
-      link: /page-2/

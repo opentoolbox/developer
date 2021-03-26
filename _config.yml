@@ -8,6 +8,8 @@ show_downloads: false
 
 show_sidebar: true
 
+permalink: /:categories/:year/:month/:day/:title
+
 footer_menu: footer_menu
 fixed_navbar: bottom
 

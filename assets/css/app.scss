@@ -35,17 +35,17 @@ $family-monospace: "Inconsolata", "Consolas", "Monaco", monospace;
 
 $radius-small: 3px;
 $radius: 0.4em;
-$radius-large: 8px;
+$radius-large: 20px;
 $size-6: 15px;
 $size-7: 0.85em;
-//$title-weight: 500;
-//$subtitle-weight: 400;
 $subtitle-color: $grey-dark;
 $mention-weight: bold;
 $mention-color: $link;
 
 $border-width: 2px;
 $border: $grey;
+
+$shadow-large: 0px 0px 60px transparentize($link, 0.7);
 
 $body-background-color: $background;
 $body-size: 15px;
@@ -55,8 +55,7 @@ $button-background-color: $dark;
 $button-border-color: lighten($button-background-color, 15);
 
 $box-color: $dark;
-$box-background-color: $grey-dark;
-$box-shadow: none;
+$box-background-color: $white;
 
 $link-hover: lighten($link, 5);
 $link-focus: darken($link, 5);
@@ -124,6 +123,18 @@ $panel-heading-background-color: $grey-dark;
         color: $white !important;
         border: none !important;
     }
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.is-rounded {
+  border-radius: $radius-large !important;
+}
+
+.has-shadow {
+  box-shadow: $shadow-large !important;
 }
 
 @import "main";

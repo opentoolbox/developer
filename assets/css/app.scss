@@ -25,6 +25,7 @@ $grey-darker: darken($grey, 23);
 
 $background: $white;
 $primary: $green !default;
+$secondary: $yellow !default;
 $dark: $grey-darker;
 $link: $blue;
 $info: lighten($blue, 15);
@@ -88,19 +89,20 @@ $pagination-border-color: $border;
 $navbar-height: 4rem;
 
 $navbar-background-color: $dark !important;
+$navbar-item-color: $white;
 $navbar-item-hover-color: $link;
 $navbar-item-hover-background-color: transparent;
-$navbar-item-active-color: $link;
-$navbar-dropdown-arrow: #fff;
+$navbar-item-active-color: $secondary;
+$navbar-dropdown-arrow: $white;
 $navbar-divider-background-color: rgba(0, 0, 0, 0.2);
 $navbar-dropdown-border-top: 1px solid $navbar-divider-background-color;
-$navbar-dropdown-background-color: $background;
+$navbar-dropdown-background-color: $white !important;
 $navbar-dropdown-item-hover-color: $grey-light;
 $navbar-dropdown-item-hover-background-color: transparent;
 $navbar-dropdown-item-active-background-color: transparent;
 $navbar-dropdown-item-active-color: $link;
 
-$dropdown-content-background-color: $background;
+$dropdown-content-background-color: $white;
 
 $progress-value-background-color: $grey-lighter;
 

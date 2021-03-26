@@ -49,3 +49,4 @@ defaults:
       type: "posts"
     values:
       image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
+      author: community

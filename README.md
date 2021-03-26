@@ -44,13 +44,13 @@ make
 Per eseguire la **build**:
 
 ```bash
-make
+make build
 ```
 
 Per servire il sito con *hot reload* esegui:
 
 ```bash
-make
+make start
 ```
 
 e apri il link che ti dice nel terminale.

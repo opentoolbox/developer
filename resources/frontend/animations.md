@@ -1,7 +1,22 @@
-https://michalsnik.github.io/aos/
+---
+title: Animazioni
+subtitle: Strumenti utili per dare vita al tuo sito.
+image: https://cdn.dribbble.com/users/1162077/screenshots/4382009/animated-pattern.gif
+hero_image: https://cdn.dribbble.com/users/1162077/screenshots/4382009/animated-pattern.gif
+---
 
-https://alexfox.dev/lax.js/
+<small>Immagine del banner creata da [Alex Kunchevsky](https://dribbble.com/kunchevsky).</small>
 
-https://barba.js.org
+---
 
-https://scrollmagic.io/
+- [Barba.js](https://barba.js.org)
+
+- [A.O.S.](https://michalsnik.github.io/aos/)
+
+- [Lax.js](https://alexfox.dev/lax.js/)
+
+- [ScrollMagic](https://scrollmagic.io/)
+
+- [Three.js](https://threejs.org/)
+
+- [Spline](https://spline.design/)

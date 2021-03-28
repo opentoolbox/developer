@@ -11,7 +11,7 @@ hero_link_text: Vai al sito
 
 Laravel è un framework per creare applicazioni in PHP di qualsiasi livello di complessità. Offre una grande quantità di strumenti per semplificare la vita allo sviluppatore e rimuovere le operazioni ripetitive all'interno di un progetto.
 
-# [Models](#): lavorare con database
+# [Models](https://laravel.com/docs/eloquent): lavorare con database
 
 Il recupero e/o salvataggio dei dati è reso un gioco da ragazzi grazie ai modelli. Ogni modello rappresenta un'entità, un tipo di dato del tuo database.
 
@@ -46,7 +46,7 @@ $user->email = "mario.rossi@email.com"
 $user->save();
 ```
 
-# [Controllers](#): la logica dell'applicazione
+# [Controllers](https://laravel.com/docs/controllers): la logica dell'applicazione
 
 I controller sono responsabili per gestire delle richieste. In pratica sono il cuore dell'applicazione, sono loro a chiamare servizi, svolgere operazioni con i modelli, etc.
 
@@ -75,7 +75,7 @@ Ogni metodo (pubblico) di un controller rappresenta un'azione che l'utente può 
 
 Questo `$request` rappresente la richiesta effettuata dall'utente, contiene tutti i valori inviati dal client così come header ed altre info utili (es. quale utente ha effettuato la richiesta con `$request->user()`);
 
-# [Routing](#): gestire i percorsi della tua applicazione
+# [Routing](https://laravel.com/docs/routing): gestire i percorsi della tua applicazione
 
 Per completare la configurazione minima ci mancano le _routes_. Queste sono configurazioni che associano un URL ad un certo certo metodo HTTP e metodo di un controller.
 
@@ -101,6 +101,6 @@ Qui sotto trovi dei link alla documentazione per approfondire altri concetti di 
 
 # Micro-framework
 
-Una versione di Laravel ultra-leggera pensate per creare API: https://lumen.laravel.com
+Una versione di Laravel ultra-leggera pensate per creare API: [Lumen](https://lumen.laravel.com)
 
-Una versione di Laravel per creare applicazioni CLI: https://laravel-zero.com/ (non ufficiale)
+Una versione di Laravel per creare applicazioni CLI: [Laravel Zero](https://laravel-zero.com/) (non ufficiale)

@@ -1,12 +1,5 @@
 ---
-layout: post
-
 title: Deploy Laravel su qualsiasi server ubuntu
-summary: |-
-    This is the custom summary for the post.
-
-    It can be in **Markdown format** if required.
-author: "@gloriadesideri"
 ---
 # Deploy AWS laravel (o su un qualsiasi web server linux)
 

@@ -33,7 +33,6 @@ defaults:
   - scope:
       path: ""
     values:
-      show_sidebar: true
       layout: page
       hero_height: is-medium
       hero_darken: true
@@ -42,11 +41,13 @@ defaults:
   - scope:
       path: ""
       type: "pages"
+      show_sidebar: false
     values:
       image: https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg
   - scope:
       path: ""
       type: "posts"
     values:
+      show_sidebar: true
       image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
       author: community

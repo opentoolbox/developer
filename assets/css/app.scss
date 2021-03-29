@@ -14,7 +14,7 @@ $purple: #8e44ad;
 $red: #e74c3c;
 $white-ter: #ecf0f1;
 $yellow-invert: #fff;
-$white: #fff;
+$white: #ffffff;
 $grey-lighter: #dbdee0;
 $grey-light: #8c9b9d;
 
@@ -45,6 +45,10 @@ $mention-color: $link;
 
 $border-width: 2px;
 $border: $grey;
+
+$hr-background-color: transparentize($dark, 0.9);
+$hr-margin: 2rem 5%;
+$hr-height: 1px;
 
 $shadow-large: 0px 0px 60px transparentize($link, 0.7);
 

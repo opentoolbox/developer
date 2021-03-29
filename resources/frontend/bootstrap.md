@@ -5,6 +5,7 @@ image: https://i.ibb.co/jL7hgbd/bootstrap.png
 hero_image: https://i.ibb.co/jL7hgbd/bootstrap.png
 hero_link: https://getbootstrap.com/
 hero_link_text: Vai al sito
+category: frontend
 ---
 
 Chi non conosce Bootstrap? Si tratta del framework CSS (ma anche un pochino di JS) più popolare al mondo.

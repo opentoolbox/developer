@@ -1,0 +1,12 @@
+<section class="box">
+    <p class="subtitle is-2">Altro in <span class="has-text-weight-bold">{{page.category | capitalize}}</span></p>
+    <ul>
+        {% for p in site.pages %}
+            {% if p.url != page.url and p.category == page.category or p.categories contains page.category %}
+                <li>
+                    <a href="{{p.url}}">{{p.title}}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</section>

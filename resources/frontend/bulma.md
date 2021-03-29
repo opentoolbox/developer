@@ -5,6 +5,7 @@ image: https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-b
 hero_image: https://i.ibb.co/ZX6yLC2/Bulma.png
 hero_link: https://bulma.io/
 hero_link_text: Vai al sito
+categories: frontend css
 ---
 
 Bulma è un framework per CSS con lo scopo di essere facile da imparare, velocizzare la creazione di pagine e lasciare la possibilità di personalizzare il look and feel del tuo sito. Il

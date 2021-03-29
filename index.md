@@ -6,8 +6,7 @@ callouts: callouts
 hero_height: is-large
 hero_link: ""
 hero_link_text: "Entra nella community"
-
-show_sidebar: false
+showcase: featured
 ---
 
 {% include notification.html message="Il sito è ancora incompleto, lo aggiorniamo quasi ogni giorno." dismissable="true" %}

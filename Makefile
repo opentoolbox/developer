@@ -1,7 +1,4 @@
-include .env
-
 init:
-	cat .env.example > .env
 	bundle install
 	make build
 

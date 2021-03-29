@@ -1,5 +1,6 @@
 .bundle
 .jekyll-cache
+.jekyll-metadata
 vendor
 _site
 .env

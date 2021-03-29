@@ -3,6 +3,8 @@ favicon: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 logo: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 lang: it
 
+incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
+
 remote_theme: chrisrhymes/bulma-clean-theme
 show_downloads: false
 
@@ -39,7 +41,7 @@ defaults:
       hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
       author: community
   - scope:
-      path: "resources"
+      path: "resources/*"
     values:
       layout: resource
       category: resources
@@ -53,3 +55,29 @@ defaults:
       show_sidebar: true
       image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
       author: community
+
+  # Main categories subdivision
+  - scope:
+      path: "/resources/android/*"
+    values:
+      category: android
+  - scope:
+      path: "/resources/backend/*"
+    values:
+      category: backend
+  - scope:
+      path: "/resources/devops/*"
+    values:
+      category: devops
+  - scope:
+      path: "/resources/frontend/*"
+    values:
+      category: frontend
+  - scope:
+      path: "/resources/hosting/*"
+    values:
+      category: hosting
+  - scope:
+      path: "/resources/ios/*"
+    values:
+      category: ios

@@ -4,9 +4,11 @@ image: https://embed-fastly.wistia.com/deliveries/9c85353a926f914df6d193b1263745
 hero_image: https://images.pexels.com/photos/4480453/pexels-photo-4480453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 ---
 
+# [Dev Docs](https://devdocs.io/)
+
 # [Notion](https://notion.so)
 
-# [Wappalizer](https://www.wappalyzer.com/)
+# [Wappalyzer](https://www.wappalyzer.com/)
 
 # [StackBlitz](https://stackblitz.com/)
 
@@ -14,8 +16,10 @@ hero_image: https://images.pexels.com/photos/4480453/pexels-photo-4480453.jpeg?a
 
 # [getwaves.io](https://getwaves.io/)
 
+# [UI Gradients](https://uigradients.com/)
 
+# [Design+Code](https://designcode.io/)
 
+# [Design Checklist](https://checklist.design/)
 
-
-
+# [Custom Shape Dividers](http://s.muz.li/YWRhMGNlNTIw)

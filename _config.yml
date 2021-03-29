@@ -39,10 +39,11 @@ defaults:
       hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
       author: community
   - scope:
-      path: ""
+      path: "resources"
       type: "pages"
-      show_sidebar: false
     values:
+      show_sidebar: false
+      menubar: main_menu
       image: https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg
   - scope:
       path: ""

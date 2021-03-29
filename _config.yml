@@ -40,8 +40,9 @@ defaults:
       author: community
   - scope:
       path: "resources"
-      type: "pages"
     values:
+      layout: resource
+      category: resources
       show_sidebar: false
       menubar: main_menu
       image: https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg

@@ -2,3 +2,7 @@
   link: /blog/
 - name: About
   link: /about/
+- name: Contribuisci
+  link: /about/contributing
+- name: Regole
+  link: /about/rules

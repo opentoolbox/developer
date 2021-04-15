@@ -57,7 +57,7 @@ $shadow-large: 0px 0px 60px transparentize($dark, 0.7);
 $body-background-color: $background;
 $body-size: 15px;
 
-$footer-background-color: $background;
+$footer-background-color: darken($background, 5);
 $button-background-color: $dark;
 $button-border-color: lighten($button-background-color, 15);
 

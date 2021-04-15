@@ -5,5 +5,9 @@
       link: /resources/frontend/
     - name: Back-End
       link: /resources/backend/
+    - name: Hosting
+      link: /resources/hosting
+    - name: Altro
+      link: /resources/other
 - name: Blog
   link: /blog/

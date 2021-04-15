@@ -1,15 +1,26 @@
-- label: Main Menu
+- label: Web
   items:
-    - name: Home
-      link: /
-    - name: Pages
-      link: #
-      items:
-        - name: Page With Sidebar 
-          link: /page-1/
-        - name: Page Without Sidebar
-          link: /page-2/
-        - name: Page With Menubar
-          link: /page-3/
-    - name: Blog
-      link: /blog/
+    - name: Front-End
+      link: /resources/frontend
+
+    - name: Back-End
+      link: /resources/backend
+
+    - name: DevOps
+      link: /resources/devops
+
+    - name: Hosting
+      link: /resources/hosting
+
+- label: Apps
+  items:
+    - name: iOS
+      link: /resources/ios
+
+    - name: Android
+      link: /resources/android
+
+- label: Esplora
+  items:
+    - name: Altro
+      link: /resources/other

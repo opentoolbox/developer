@@ -3,11 +3,9 @@ layout: default
 ---
 
 <div class="content is-rounded p-0">
-  <img src="{{page.image}}" class="thumbnail mx-auto is-rounded has-shadow"/>
-
   <div class="section">
-      <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-
+      <p>📅 {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
+      <hr/>
       {{ content }}
   </div>
 </div>

@@ -58,27 +58,27 @@ defaults:
       author: community
 
   # Main categories subdivision
-  # - scope:
-  #     path: "/resources/android/*"
-  #   values:
-  #     category: android
-  # - scope:
-  #     path: "/resources/backend/*"
-  #   values:
-  #     category: backend
-  # - scope:
-  #     path: "/resources/devops/*"
-  #   values:
-  #     category: devops
-  # - scope:
-  #     path: "/resources/frontend/*"
-  #   values:
-  #     category: frontend
-  # - scope:
-  #     path: "/resources/hosting/*"
-  #   values:
-  #     category: hosting
-  # - scope:
-  #     path: "/resources/ios/*"
-  #   values:
-  #     category: ios
+  - scope:
+      path: "/resources/android/*"
+    values:
+      category: android
+  - scope:
+      path: "/resources/backend/*"
+    values:
+      category: backend
+  - scope:
+      path: "/resources/devops/*"
+    values:
+      category: devops
+  - scope:
+      path: "/resources/frontend/*"
+    values:
+      category: frontend
+  - scope:
+      path: "/resources/hosting/*"
+    values:
+      category: hosting
+  - scope:
+      path: "/resources/ios/*"
+    values:
+      category: ios

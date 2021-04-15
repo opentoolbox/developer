@@ -10,7 +10,7 @@ show_downloads: false
 
 show_sidebar: true
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title
 
 footer_menu: footer_menu
 fixed_navbar: bottom

@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-
+# Plugins
 group :jekyll_plugins do
     gem 'github-pages'
     # gem 'jekyll-algolia'
@@ -12,5 +12,7 @@ group :jekyll_plugins do
     gem 'jekyll-mentions'
   end
 
+# Installs
 gem "webrick", "~> 1.7"
+gem 'rouge'
 

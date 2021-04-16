@@ -263,6 +263,7 @@ DEPENDENCIES
   github-pages
   jekyll-environment-variables
   jekyll-mentions
+  rouge
   webrick (~> 1.7)
 
 BUNDLED WITH

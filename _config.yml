@@ -12,6 +12,16 @@ show_sidebar: true
 
 permalink: /posts/:title
 
+
+markdown: kramdown
+fenced_code_blocks: true
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class   : 'highlight'
+
 footer_menu: footer_menu
 fixed_navbar: bottom
 

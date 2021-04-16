@@ -29,11 +29,17 @@ Per semplificarti la vita abbiamo predisposto dei comandi semplificati con *Make
 
 Se sei su **Linux** lo hai già installato di default.
 
-Se invece sei su **Windows** devi prima scaricarti [Chocolatey](https://chocolatey.org/install) e poi eseguire:
+Se invece sei su **Windows** devi prima scaricarti un gestore di pacchetti:
+
+#### Installare [Chocolatey](https://chocolatey.org/install) e poi eseguire:
 ```bash
 choco install make
 ```
 
+#### Installare [Scoop](https://scoop.sh) e poi eseguire:
+```bash
+scoop install make
+```
 ### 🎉 Setup finale
 Una volta installato scarica tutte le dipendenze con:
 

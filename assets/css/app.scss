@@ -133,6 +133,13 @@ $panel-heading-background-color: $grey-dark;
     }
 }
 
+.is-dark {
+  &.box {
+    background-color: $dark !important;
+    color: $white;
+  }
+}
+
 .thumbnail {
   width: 100%;
 }

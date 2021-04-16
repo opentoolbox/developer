@@ -3,16 +3,20 @@
 {% else %}
     {% assign actual_category = page.category %}
 {% endif %}
-<section class="box">
-    <p class="subtitle is-2">Esplora <span class="has-text-weight-bold">{{actual_category | capitalize}}</span></p>
-    <hr />
-    <ul>
+<section class="box is-dark is-family-monospace">
+    <p>
+        <span class="has-text-grey">$:</span>
+        ls
+        <span class="has-text-weight-bold has-text-success">{{actual_category}}</span>/        
+    </p>
+    <div>
         {% for p in site.pages %}
             {% if p.title and p.url != page.url and p.category == actual_category or p.categories contains actual_category %}
-                <li>
+                <span class="is-block">
+                    <span class="has-text-grey">&gt;</span>
                     <a href="{{p.url}}">{{p.title}}</a>
-                </li>
+                </span>
             {% endif %}
         {% endfor %}
-    </ul>
+    </div>
 </section>

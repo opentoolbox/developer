@@ -1,22 +1,28 @@
 {% if include.category %}
     {% assign actual_category = include.category %}
-{% else %}
+{% elsif page.category %}
     {% assign actual_category = page.category %}
+{% else %}
+    {% assign cats = page.dir | split: '/'%}
+    {% assign actual_category = cats[2] or cats[1] %}
 {% endif %}
-<section class="box is-dark is-family-monospace">
-    <p>
-        <span class="has-text-grey">$:</span>
-        ls
-        <span class="has-text-weight-bold has-text-success">{{actual_category}}</span>/        
-    </p>
-    <div>
-        {% for p in site.pages %}
-            {% if p.title and p.url != page.url and p.category == actual_category or p.categories contains actual_category %}
-                <span class="is-block">
-                    <span class="has-text-grey">&gt;</span>
-                    <a href="{{p.url}}">{{p.title}}</a>
-                </span>
-            {% endif %}
-        {% endfor %}
-    </div>
-</section>
+
+{% if actual_category %}
+    <section class="box is-dark is-family-monospace">
+        <p>
+            <span class="has-text-grey">$:</span>
+            ls
+            <span class="has-text-weight-bold has-text-success">{{actual_category}}</span>/        
+        </p>
+        <div>
+            {% for p in site.pages %}
+                {% if p.title and p.url != page.url and p.category == actual_category or p.categories contains actual_category or p.dir contains actual_category %}
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="{{p.url}}">{{p.title}}</a>
+                    </span>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+{% endif %}

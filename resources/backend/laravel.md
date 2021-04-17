@@ -2,9 +2,10 @@
 title: Laravel
 subtitle: Il framework PHP più completo.
 image: https://embed-fastly.wistia.com/deliveries/9c85353a926f914df6d193b126374548.webp?image_crop_resized=1280x720
-hero_image: https://blog.chrish.me/wp-content/uploads/2020/05/laravelbg.png
+hero_image: https://laravel.com/img/hero/hero_poster.jpg
 hero_link: https://laravel.com
 hero_link_text: Vai al sito
+hero_darken: true
 ---
 
 # Introduzione

@@ -16,7 +16,7 @@ NestJS è un popolare framework per creare applicazioni server complesse utilizz
 
 I controller sono quelli che si occupano di gestire una richiesta da parte del client.
 
-```TypeScript
+```typescript
 // cats.controller.ts
 import { Controller, Get } from '@nestjs/common';
 
@@ -45,7 +45,7 @@ Sebbene i nostri controller siano i punti dove riponiamo la logica della nostra 
 
 Creiamo il nostro primo servizio, questo restituisce una lista di gatti (perché si).
 
-```TypeScript
+```typescript
 // cats.service.ts
 import { Injectable } from '@nestjs/common';
 import { Cat } from './interfaces/cat.interface';
@@ -68,7 +68,7 @@ Nota il decoratore `@Injectable()`, grazie a questo indichiamo a NestJS che ques
 
 L'interfaccia `Cat` definisce semplicemente quali sono le informazioni che vogliamo avere di un determinato gatto.
 
-```TypeScript
+```typescript
 // interfaces/cat.interface.ts
 export interface Cat {
   name: string;
@@ -79,7 +79,7 @@ export interface Cat {
 
 ## Riscriviamo il controller utilizzando il nostro servizio
 
-```TypeScript
+```typescript
 // cats.controller.ts
 import { Controller, Get, Post, Body } from '@nestjs/common';
 import { CreateCatDto } from './dto/create-cat.dto';

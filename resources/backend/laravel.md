@@ -19,24 +19,24 @@ Facciamo l'esempio con il modello `User` e vediamo alcune delle tante operazioni
 ### Selezionare degli utenti
 
 Prendere tutti gli utenti:
-```PHP
+```php
 $users = User::all();
 ```
 
 Prendere il nome degli utenti maggiorenni:
-```PHP
+```php
 $users = User::where('age', '>', 18)->get('name');
 ```
 
 Trovare un utente specifico tramite chiave primaria:
-```PHP
+```php
 $user = User::find(12345);
 ```
 
 ### Modificare degli utenti
 
 Qui sotto si vede quanto è semplice recuperare un utente, cambiare delle informazioni e salvare tutto nel database.
-```PHP
+```php
 $user = User::find(12345);
 
 $user->name = "Mario";
@@ -51,7 +51,7 @@ $user->save();
 I controller sono responsabili per gestire delle richieste. In pratica sono il cuore dell'applicazione, sono loro a chiamare servizi, svolgere operazioni con i modelli, etc.
 
 Prendiamo come esempio un controller per gli utenti:
-```PHP
+```php
 <?php
 
 namespace App\Http\Controllers;
@@ -79,7 +79,7 @@ Questo `$request` rappresente la richiesta effettuata dall'utente, contiene tutt
 
 Per completare la configurazione minima ci mancano le _routes_. Queste sono configurazioni che associano un URL ad un certo certo metodo HTTP e metodo di un controller.
 
-```PHP
+```php
 Route::get('/user/show', 'UserController@show');
 ```
 

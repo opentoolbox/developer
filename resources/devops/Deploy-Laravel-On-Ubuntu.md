@@ -1,5 +1,5 @@
 ---
-title: Deploy Laravel su qualsiasi server ubuntu
+title: Deploy Laravel su qualsiasi server Ubuntu
 ---
 # Deploy AWS laravel (o su un qualsiasi web server linux)
 

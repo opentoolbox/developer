@@ -32,6 +32,7 @@ paginate_path: "/blog/page:num"
 plugins:
   - jekyll-environment-variables
   - jekyll-mentions
+  - jekyll-external-links
 
 social:
   name: Mastermind Sviluppo Web & App - start2impact
@@ -40,6 +41,13 @@ social:
 
 jekyll-mentions:
   base_url: https://github.com
+
+external_links:
+  selector: 'body a'
+  ignored_selectors:
+    - a.user-mention
+  marker_html: "<span class='ml-small'><i class='fas fa-external-link-alt fa-sm'></i></span>"
+
 
 defaults:
   - scope:

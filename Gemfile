@@ -10,6 +10,7 @@ group :jekyll_plugins do
     # gem 'jekyll-algolia'
     gem 'jekyll-environment-variables'
     gem 'jekyll-mentions'
+    gem 'jekyll-external-links'
   end
 
 # Installs

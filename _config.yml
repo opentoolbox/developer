@@ -46,17 +46,17 @@ defaults:
       path: ""
     values:
       layout: page
+      author: community
+      image: https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg
+      hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
       hero_height: is-medium
       hero_darken: true
-      hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
-      author: community
   - scope:
       path: "resources/*"
     values:
       layout: resource
       show_sidebar: false
       menubar: main_menu
-      image: https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg
   - scope:
       path: ""
       type: "posts"

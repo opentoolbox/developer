@@ -3,6 +3,7 @@ title: Front-End
 subtitle: La faccia della tua applicazione.
 image: https://architectureprize.com/submit/uploads/92332/22-5186-18/medium/0d2c35229f4d38eac96124e333311a44.jpg
 hero_image: https://architectureprize.com/submit/uploads/92332/22-5186-18/medium/0d2c35229f4d38eac96124e333311a44.jpg
+callouts: frontend_frameworks
 ---
 
 Un'applicazione, anche se funzionante, non sarà **utilizzabile** senza il **Front-End**.

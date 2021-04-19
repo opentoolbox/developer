@@ -70,10 +70,9 @@ e apri il link che ti dice nel terminale.
 
 Potresti esserci anche tu qui ☝
 
----
 
-Mantenuto dalla community di [**start2impact**](https://start2impact.it).
-
-<div align="center">
+<div align="center" style="max-width: 1000px; margin: auto;">
     <img src="https://i.ibb.co/VCrGbkN/Pallino-bianco-2.png" style="max-width: 200px" alt="start2impact">
 </div>
+
+Mantenuto dalla community di [**start2impact**](https://start2impact.it).

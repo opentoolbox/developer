@@ -15,7 +15,7 @@
                             {% endif %}
                             </div>
                             {% endif %}
-                            <p class="title is-5">{{ callout.title }}</p>
+                            <p class="title is-3">{{ callout.title }}</p>
                             <p class="subtitle is-5">{{ callout.subtitle }}</p>
                             
                             {% if callout.description %}
@@ -25,8 +25,9 @@
                             {% endif %}
 
                             {% if callout.call_to_action_name %}
-                            <a href="{{ callout.call_to_action_link | relative_url }}" class="button {{ callouts.style }} is-inverted is-rounded">
-                                {{ callout.call_to_action_name }}
+                            <a href="{{ callout.call_to_action_link | relative_url }}" class="{{ callouts.style }} is-block has-text-weight-bold mt-medium">
+                                <span>{{ callout.call_to_action_name }}</span>
+                                <span class="ml-small"><i class="fas fa-external-link-alt"></i></span>
                             </a>
                             {% endif %}
                         </div>

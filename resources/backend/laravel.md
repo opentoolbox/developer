@@ -5,7 +5,6 @@ image: https://embed-fastly.wistia.com/deliveries/9c85353a926f914df6d193b1263745
 hero_image: https://laravel.com/img/hero/hero_poster.jpg
 hero_link: https://laravel.com
 hero_link_text: Vai al sito
-hero_darken: true
 ---
 
 # Introduzione

@@ -1,5 +1,11 @@
-# React
-
+---
+title: React
+image: https://reactjs.org/logo-og.png
+hero_image: https://miro.medium.com/max/2800/0*DZZjrKbTxFTssqRK.jpg
+hero_link: https://reactjs.org/
+hero_link_text: Vai al sito
+hero_darken: false
+---
 # Introduzione
 
 React è un frsamework per il frontend che consente di:

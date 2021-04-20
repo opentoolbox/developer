@@ -1,0 +1,2 @@
+- name: Jekyll Deploy
+  uses: jeffreytse/jekyll-deploy-action@v0.1.4

@@ -3,6 +3,8 @@ favicon: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 logo: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 lang: it
 
+repository: thedevelopertoolbox/thedevelopertoolbox.github.io
+
 incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
 
 remote_theme: chrisrhymes/bulma-clean-theme

@@ -1,7 +1,8 @@
 # The Developer's Toolbox 🧰
 Tutte le risorse dei mastermind di programmazione di start2impact!
 
----
+[![Build and Deploy to Github Pages](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/actions/workflows/jekyll.yml)
+
 
 Questo sito è pensato per raccogliere tutte le risorse che potrebbero risultare utili a studenti di programmazione.
 

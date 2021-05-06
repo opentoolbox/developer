@@ -72,8 +72,7 @@ e apri il link che ti dice nel terminale.
 Potresti esserci anche tu qui ☝
 
 
-<div align="center" style="max-width: 1000px; margin: auto;">
-    <img src="https://i.ibb.co/VCrGbkN/Pallino-bianco-2.png" style="max-width: 200px" alt="start2impact">
-</div>
+<img src="https://i.ibb.co/VCrGbkN/Pallino-bianco-2.png" width="500px" alt="start2impact">
+
 
 Mantenuto dalla community di [**start2impact**](https://start2impact.it).

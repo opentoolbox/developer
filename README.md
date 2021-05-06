@@ -1,4 +1,4 @@
-# The Developer's Toolbox 🧰
+# The Developer's Toolbox 🧰 [![GitHub license](https://img.shields.io/github/license/thedevelopertoolbox/thedevelopertoolbox.github.io?color=grey&label=License)](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/blob/main/LICENSE)
 Tutte le risorse dei mastermind di programmazione di start2impact!
 
 [![Build and Deploy to Github Pages](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/actions/workflows/jekyll.yml)
@@ -64,7 +64,7 @@ e apri il link che ti dice nel terminale.
 
 ---
 
-# Contribuenti 💚
+# Contribuenti 💚 ![GitHub contributors](https://img.shields.io/github/contributors/thedevelopertoolbox/thedevelopertoolbox.github.io?color=grey&label=)
 
 [![contributors](https://contrib.rocks/image?repo=thedevelopertoolbox/thedevelopertoolbox.github.io)](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/graphs/contributors)
 

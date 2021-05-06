@@ -4,26 +4,14 @@ on:
   push:
     branches:
       - main
-      - dev
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      # Use GitHub Actions' cache to cache dependencies on servers
-      - uses: actions/cache@v2
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-
-      # Use GitHub Deploy Action to build and deploy to Github
-      - uses: jeffreytse/jekyll-deploy-action@v0.2.1
-        with:
-          provider: 'github'
-          token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
-          repository: 'thedevelopertoolbox/thedevelopertoolbox.github.io'             # Default is current repository
-          branch: 'main'         # Default is gh-pages for github provider
+          fetch-depth: 1
+      - name: 🧪 Build and deploy
+        uses: victoriadrake/jekyll-cd@master

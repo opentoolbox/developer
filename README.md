@@ -1,4 +1,4 @@
-# The Developer's Toolbox 🧰 [![GitHub license](https://img.shields.io/github/license/thedevelopertoolbox/thedevelopertoolbox.github.io?color=grey&label=License)](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/blob/main/LICENSE)
+# [The Developer's Toolbox](https://thedevelopertoolbox.github.io) 🧰 [![GitHub license](https://img.shields.io/github/license/thedevelopertoolbox/thedevelopertoolbox.github.io?color=grey&label=License)](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/blob/main/LICENSE)
 Tutte le risorse dei mastermind di programmazione di start2impact!
 
 [![Build and Deploy to Github Pages](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/actions/workflows/jekyll.yml)
@@ -7,11 +7,6 @@ Tutte le risorse dei mastermind di programmazione di start2impact!
 Questo sito è pensato per raccogliere tutte le risorse che potrebbero risultare utili a studenti di programmazione.
 
 Abbiamo raccolto tantissimi strumenti, guide, framework e altri in un unico punto.
-
-## 👉 [Vai al sito!](https://thedevelopertoolbox.github.io)
-
----
----
 
 ## 👥 Contribuire
 

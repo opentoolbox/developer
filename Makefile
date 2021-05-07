@@ -21,4 +21,4 @@ build:
 
 actions:
 	act -g
-	act --secret-file .env
+	act --secret-file .env -a host

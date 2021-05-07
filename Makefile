@@ -1,6 +1,14 @@
-init:
+all: install build
+
+env:
+ifeq ($(OS),Windows_NT)
+	copy example.env test.env
+else
+	cp example.env test.env
+endif
+
+install:
 	bundle install
-	make build
 
 start:
 	bundle exec jekyll serve
@@ -8,6 +16,5 @@ start:
 build:
 	bundle exec jekyll build
 
-services:
-	echo $(ALGOLIA_API_KEY) > _algolia_api_key
-	bundle exec jekyll algolia
+actions:
+	act --secret-file .env

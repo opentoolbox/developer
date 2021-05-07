@@ -12,6 +12,7 @@ jobs:
       - name: 🛎 Check out master
         uses: actions/checkout@v2
         with:
+          persist-credentials: false
           token: ${{ secrets.ACCESS_TOKEN }}
           ref: main
 
@@ -28,4 +29,5 @@ jobs:
       - uses:  helaili/jekyll-action@v2
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
+          target_branch: main
           

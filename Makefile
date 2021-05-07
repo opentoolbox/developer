@@ -10,6 +10,9 @@ endif
 install:
 	bundle install
 
+check:
+	bundle exec jekyll doctor
+
 start:
 	bundle exec jekyll serve
 

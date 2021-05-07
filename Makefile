@@ -20,4 +20,5 @@ build:
 	bundle exec jekyll build
 
 actions:
+	act -g
 	act --secret-file .env

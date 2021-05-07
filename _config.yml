@@ -1,4 +1,5 @@
 title: The Developer's Toolbox
+url: https://thedevelopertoolbox.github.io
 favicon: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 logo: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 lang: it
@@ -13,6 +14,7 @@ show_downloads: false
 show_sidebar: true
 
 permalink: /posts/:title
+
 
 
 markdown: kramdown

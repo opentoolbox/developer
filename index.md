@@ -16,5 +16,7 @@ Questo progetto è nato grazie ad un suggerimento di @fabio-mancin sul nostro se
 
 etc. etc. Al momento è per testare le menzioni.
 
+{% include join.html %}
+
 # Titolo
 bla bla bla

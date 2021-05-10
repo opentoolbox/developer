@@ -1,36 +1,26 @@
-intro: |-
-  This is some introduction text for the showcases.
-  
-  ## Example Heading
-  It can convert Markdown format
-
 items:
-  - title: Example showcase item
-    subtitle: Example subtitle
-    description: |-
-      This is the example description for this item that you are showcasing and has an image, title, description, tags and a link.
+  - title: Laravel
+    subtitle: Un semplice framework per applicazioni server complesse.
     features:
-      - This is a feature
-      - This is a feature
+      - Semplicità
+      - Supporto
     features_styles: is-centered is-outlined is-primary
-    image: https://via.placeholder.com/1024x788
-    image_ratio: is-16by9
-    link: http://www.example.com
-    link_text: View example
-    tags: PHP,CSS,JavaScript
-    github: thedevelopertoolbox/thedevelopertoolbox.github.io
+    image: https://www.byte5.net/media/2654/laravel.jpg?center=0.46153846153846156,0.4564102564102564&mode=crop&quality=90&width=1980&height=0&rnd=132294461620000000
+    image_ratio: is-1by1
+    link: /resources/backend/laravel
+    link_text: Vai alla pagina
+    tags: PHP
+    github: laravel/framework
 
-  - title: Example showcase item
-    subtitle: Example subtitle
-    description: |-
-      This is the example description for this item that you are showcasing and has an image, title, description, tags and a link.
+  - title: Vue
+    subtitle: Interfacce interattive, veloci e comode da creare.
     features:
-      - This is a feature
-      - This is a feature
+      - Leggerezza
+      - Leggibilità
     features_styles: is-centered is-outlined is-primary
-    image: https://via.placeholder.com/1024x788
-    image_ratio: is-16by9
-    link: http://www.example.com
-    link_text: View example
-    tags: PHP,CSS,JavaScript
-    github: thedevelopertoolbox/thedevelopertoolbox.github.io
+    image: https://www.monterail.com/hubfs/_vue-pillar/vue-header-2.png
+    image_ratio: is-1by1
+    link: /resources/frontend/vue
+    link_text: Vai alla pagina
+    tags: JavaScript,TypeScript,SCSS,HTML
+    github: vuejs/vue

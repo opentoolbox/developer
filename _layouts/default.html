@@ -25,6 +25,13 @@
         {% endif %}
     {% endunless %}
     {% include callouts.html %}
+
+	<section class="section">
+        <div class="container">
+            {% include showcase.html columns=true %}
+        </div>
+    </section>
+
     <section class="section">
         <div class="container">
             <div class="columns">
@@ -53,11 +60,6 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            {% include showcase.html columns=true %}
-        </div>
-    </section>
     {% unless page.hide_footer %}
         {% include footer.html %}
     {% endunless %}

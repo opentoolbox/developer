@@ -7,7 +7,6 @@ hero_height: is-large
 hero_link: "resources"
 hero_link_text: "Inizia"
 hero_link_style: "is-success"
-showcase: featured
 ---
 
 {% include notification.html message="Il sito è ancora incompleto, lo aggiorniamo quasi ogni giorno." dismissable="true" %}

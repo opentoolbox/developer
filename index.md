@@ -4,8 +4,9 @@ title: The Developer's Toolbox
 subtitle: Trova la risorsa che fa per te.
 callouts: callouts
 hero_height: is-large
-hero_link: ""
-hero_link_text: "Entra nella community"
+hero_link: "resources"
+hero_link_text: "Inizia"
+hero_link_style: "is-success"
 showcase: featured
 ---
 

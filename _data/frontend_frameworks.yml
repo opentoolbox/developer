@@ -13,8 +13,8 @@ items:
     call_to_action_name: Vai
     call_to_action_link: /resources/frontend/react
 
-  - title: Angular
-    icon: fa-angular
+  - title: Bootstrap
+    icon: fa-bootstrap
     icon_brand: true
     call_to_action_name: Vai
-    call_to_action_link: /resources/frontend/angular
+    call_to_action_link: /resources/frontend/bootstrap

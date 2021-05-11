@@ -1,7 +1,7 @@
 style: is-light
 height: is-small
 items:
-  - title: Vue
+  - title: Laravel
     icon: fa-laravel
     icon_brand: true
     call_to_action_name: Vai

@@ -18,7 +18,20 @@ Con questo progetto vogliamo impegnarci a **collezionare ed organizzare **queste
 
 Aiuta i tuoi colleghi condividendo risorse, modificando direttamente il sito o suggerendo modifiche.
 
-Aiutaci a creare **una risorsa libera e gratuita** per tutti!
+<div class="hero is-small is-dark is-rounded my-medium">
+	<div class="hero-body">
+		<div class="columns is-vcentered">
+			<div class="column is-two-thirds">
+				<p class="title is-3 has-text-white">Aiutaci a creare una risorsa libera e gratuita per tutti!</p>
+			</div>
+			<div class="column">
+				<div class="is-flex is-justify-content-center mt-negative-medium">
+					<img width="200px" src="https://i.ibb.co/RDtYp7P/green-rocket.gif" alt="Rocket">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 ## Come partecipare ✍
 
@@ -32,10 +45,11 @@ Hai dei problemi con un tool, un framework o una libreria proposta? 🙄 Dubbi? 
 
 Magari vuoi semplicemente condividere un'idea che pensi sia utile al prossimo? 😍
 
-<a href="{{site.collaboration_links.discussions}}" class="button is-dark">Vai alle discussioni</a>
+<div class="is-flex is-justify-content-center my-medium">
+	<a href="{{site.collaboration_links.discussions}}" class="button is-link is-light is-large">Vai alle discussioni</a>
+</div>
 
 Nelle discussioni è anche possibile condividere il proprio codice o la propria repository 😉 
-
 
 {% include notification.html message="**Ricorda:** se esiste già una discussione dello stesso argomento contribuisci ad una esistente piuttosto che aprirne una nuova." %}
 

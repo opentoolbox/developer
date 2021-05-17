@@ -1,7 +1,7 @@
 ---
 name: Nuova risorsa
 about: Richiedi l'aggiunta di una nuova risorsa.
-title: ''
+title: Titolo della risorsa (es. React)
 labels: nuovo
 assignees: sinisimattia, gloriadesideri
 

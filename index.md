@@ -14,7 +14,7 @@ hero_link_style: "is-success"
 ## Introduzione
 Ogni anno centinaia di nuovi tool, framework e librerie vengono rilasciate per aiutare noi sviluppatori a creare la nostra prossima applicazione.
 
-Con questo progetto vogliamo impegnarci a **collezionare ed organizzare **queste risorse in un unico ambiente a disposizione di tutta la Community.
+Con questo progetto vogliamo impegnarci a **collezionare ed organizzare** queste risorse in un unico ambiente a disposizione di tutta la Community.
 
 Aiuta i tuoi colleghi condividendo risorse, modificando direttamente il sito o suggerendo modifiche.
 

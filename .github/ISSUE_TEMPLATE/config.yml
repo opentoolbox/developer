@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discussioni
+    url: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/discussions
+    about: Se hai problemi con una risorsa proposta utilizza le discussioni piuttosto che aprire un Issue.

@@ -18,7 +18,7 @@ Con questo progetto vogliamo impegnarci a **collezionare ed organizzare** queste
 
 Aiuta i tuoi colleghi condividendo risorse, modificando direttamente il sito o suggerendo modifiche.
 
-<div class="hero is-small is-dark is-rounded my-medium">
+<div class="hero is-small is-dark is-rounded my-medium" style="background-image:url(https://i.ibb.co/Qpfh4B4/Sprinkle.png)">
 	<div class="hero-body">
 		<div class="columns is-vcentered">
 			<div class="column is-two-thirds">

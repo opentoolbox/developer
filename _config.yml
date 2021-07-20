@@ -7,41 +7,16 @@ lang: it
 
 repository: opentoolbox/developer
 
-incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
-
 theme: jekyll-theme-opentoolbox
-
-show_downloads: false
-
-show_sidebar: true
-
-permalink: /posts/:title
 
 collaboration_links:
   issues: https://github.com/opentoolbox/developer/issues
   pull_requests: https://github.com/opentoolbox/developer/pulls
   discussions: https://github.com/opentoolbox/developer/discussions
 
-markdown: kramdown
-fenced_code_blocks: true
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    default_lang: html
-    css_class   : 'highlight'
-
-footer_menu: footer_menu
-fixed_navbar: bottom
-
-paginate: 5
-paginate_path: "/blog/page:num"
-
 # Set plugins here to make it compatible with GitHub pages.
-plugins:
-  - jekyll-environment-variables
-  - jekyll-mentions
-  - jekyll-target-blank
+# plugins:
+#   - plugin-name-here
 
 social:
   name: Mastermind Sviluppo Web & App - start2impact

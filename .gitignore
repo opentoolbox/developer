@@ -7,3 +7,4 @@ _site
 _algolia_api_key
 .idea
 Gemfile.lock
+.sass-cache

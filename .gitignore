@@ -6,3 +6,4 @@ _site
 .env
 _algolia_api_key
 .idea
+Gemfile.lock

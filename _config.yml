@@ -1,15 +1,16 @@
 title: The Developer's Toolbox
-url: https://thedevelopertoolbox.github.io
+url: https://developer.opentoolbox.online
 baseurl: ""
 favicon: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 logo: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 lang: it
 
-repository: thedevelopertoolbox/thedevelopertoolbox.github.io
+repository: opentoolbox/developer
 
 incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
 
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: jekyll-theme-opentoolbox
+
 show_downloads: false
 
 show_sidebar: true
@@ -17,9 +18,9 @@ show_sidebar: true
 permalink: /posts/:title
 
 collaboration_links:
-  issues: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/issues
-  pull_requests: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/pulls
-  discussions: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/discussions
+  issues: https://github.com/opentoolbox/developer/issues
+  pull_requests: https://github.com/opentoolbox/developer/pulls
+  discussions: https://github.com/opentoolbox/developer/discussions
 
 markdown: kramdown
 fenced_code_blocks: true

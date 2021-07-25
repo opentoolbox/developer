@@ -9,6 +9,8 @@ repository: opentoolbox/developer
 
 theme: jekyll-theme-opentoolbox
 
+footer_menu: footer_menu
+
 collaboration_links:
   issues: https://github.com/opentoolbox/developer/issues
   pull_requests: https://github.com/opentoolbox/developer/pulls

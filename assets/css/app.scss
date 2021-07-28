@@ -1,0 +1,16 @@
+////////////////////////////////////////////////
+//               start2impact                 //
+////////////////////////////////////////////////
+
+// This imports all the resources that need to be downloaded over the internet (such as: fonts, stylesheets, etc.)
+@import "external";
+@import "variables";
+
+// Your custom variables/rules/anything goes here
+$primary: $green;
+
+// Choose your syntax-highlight theme here
+@import "highlight/dark";
+
+// Import the main stylesheet in order for the theme to work.
+@import "main";

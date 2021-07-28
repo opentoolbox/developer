@@ -2,10 +2,10 @@
 title: NestJS
 subtitle: Applicazioni server-side complesse con Node.
 image: https://solidgeargroup.com/wp-content/uploads/2019/12/nest-1.png
-hero_image: https://d33wubrfki0l68.cloudfront.net/b48d3f70dffd76bf3152ad04e2cbb1261ef589c9/header.1af6756a.png
-hero_link: https://nestjs.com/
-hero_link_text: Vai al sito
-hero_link_style: is-danger
+banner_image: https://d33wubrfki0l68.cloudfront.net/b48d3f70dffd76bf3152ad04e2cbb1261ef589c9/header.1af6756a.png
+banner_link: https://nestjs.com/
+banner_link_text: Vai al sito
+banner_link_style: is-danger
 ---
 
 # Introduzione

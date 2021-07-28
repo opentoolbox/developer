@@ -3,10 +3,10 @@ layout: page
 title: The Developer's Toolbox
 subtitle: Trova la risorsa che fa per te.
 callouts: callouts
-hero_height: is-large
-hero_link: "resources"
-hero_link_text: "Inizia"
-hero_link_style: "is-success"
+banner_height: is-large
+banner_link: "resources"
+banner_link_text: "Inizia"
+banner_link_style: "is-success"
 ---
 
 {% include notification.html message="Questo progetto è nato grazie ad un suggerimento di @fabio-mancin sul nostro server Discord." dismissable="true" status="is-light" icon="" %}

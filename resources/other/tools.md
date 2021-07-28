@@ -1,6 +1,6 @@
 ---
 title: Strumenti vari
-hero_image: https://images.pexels.com/photos/4480453/pexels-photo-4480453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+banner_image: https://images.pexels.com/photos/4480453/pexels-photo-4480453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 ---
 
 # [Dev Docs](https://devdocs.io/)

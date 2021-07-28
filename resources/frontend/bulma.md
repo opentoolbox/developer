@@ -2,9 +2,9 @@
 title: Bulma
 subtitle: Migliora il look del tuo sito con pochissime classi.
 image: https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png
-hero_image: https://i.ibb.co/ZX6yLC2/Bulma.png
-hero_link: https://bulma.io/
-hero_link_text: Vai al sito
+banner_image: https://i.ibb.co/ZX6yLC2/Bulma.png
+banner_link: https://bulma.io/
+banner_link_text: Vai al sito
 categories: frontend css
 ---
 

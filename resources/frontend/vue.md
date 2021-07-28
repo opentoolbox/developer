@@ -1,9 +1,9 @@
 ---
 title: Vue
 image: https://miro.medium.com/max/2560/1*Ht8T-vqbqy5iG7FzNQGjFA.png
-hero_image: https://miro.medium.com/max/2560/1*Ht8T-vqbqy5iG7FzNQGjFA.png
-hero_link: https://vuejs.org/
-hero_link_text: Vai al sito
+banner_image: https://miro.medium.com/max/2560/1*Ht8T-vqbqy5iG7FzNQGjFA.png
+banner_link: https://vuejs.org/
+banner_link_text: Vai al sito
 ---
 
 # Introduzione

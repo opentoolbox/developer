@@ -2,9 +2,9 @@
 title: Docker
 subtitle: Deploy tool basato sui container.
 image: https://www.simoncode.net/wp-content/uploads/2019/04/Risultati-immagini-per-docker.png
-hero_image: https://wallpaperaccess.com/full/2982385.png
-hero_link: https://www.docker.com/
-hero_link_text: Vai al sito
+banner_image: https://wallpaperaccess.com/full/2982385.png
+banner_link: https://www.docker.com/
+banner_link_text: Vai al sito
 ---
 
 # Docker

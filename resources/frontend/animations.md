@@ -2,7 +2,7 @@
 title: Animazioni
 subtitle: Strumenti utili per dare vita al tuo sito.
 image: https://cdn.dribbble.com/users/1162077/screenshots/4382009/animated-pattern.gif
-hero_image: https://cdn.dribbble.com/users/1162077/screenshots/4382009/animated-pattern.gif
+banner_image: https://cdn.dribbble.com/users/1162077/screenshots/4382009/animated-pattern.gif
 ---
 
 <small>Immagine del banner creata da [Alex Kunchevsky](https://dribbble.com/kunchevsky).</small>

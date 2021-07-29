@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -31,17 +34,4 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           target_branch: gh-pages
           jekyll_src: "."
-          target_path: "."
-          
-
-      # - name: 🧪 Build and deploy
-      #   uses: joshlarsen/jekyll4-deploy-gh-pages@master
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      #     GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-      #     GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-      #   with:
-      #     GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      #     GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-      #     GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-          
+          target_path: "."          

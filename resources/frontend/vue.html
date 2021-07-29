@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+
+
+<html
+	lang="it"
+	
+>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="https://i.ibb.co/N7DTRLZ/Logo-start2impact.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Vue | The Developer’s Toolbox</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Vue" />
+<meta name="author" content="community" />
+<meta property="og:locale" content="it" />
+<link rel="canonical" href="https://developer.opentoolbox.online/resources/frontend/vue" />
+<meta property="og:url" content="https://developer.opentoolbox.online/resources/frontend/vue" />
+<meta property="og:site_name" content="The Developer’s Toolbox" />
+<meta property="og:image" content="https://miro.medium.com/max/2560/1*Ht8T-vqbqy5iG7FzNQGjFA.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://miro.medium.com/max/2560/1*Ht8T-vqbqy5iG7FzNQGjFA.png" />
+<meta property="twitter:title" content="Vue" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://i.ibb.co/N7DTRLZ/Logo-start2impact.png"},"name":"community"},"url":"https://developer.opentoolbox.online/resources/frontend/vue","@type":"WebPage","image":"https://miro.medium.com/max/2560/1*Ht8T-vqbqy5iG7FzNQGjFA.png","headline":"Vue","author":{"@type":"Person","name":"community"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+
+	<body>
+		<nav class="navbar has-shadow " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item is-rounded">
+                The Developer's Toolbox
+            </a>
+            <a role="button" class="navbar-burger is-rounded burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu px-small is-rounded" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item is-rounded py-small has-dropdown is-hoverable ">
+                        <a href="/resources/" class="navbar-link is-rounded ">Risorse</a>
+                        <div class="navbar-dropdown is-boxed">
+                            
+                            <a href="/resources/frontend/" class="navbar-item is-rounded ">Front-End</a>
+                            
+                            <a href="/resources/backend/" class="navbar-item is-rounded ">Back-End</a>
+                            
+                            <a href="/resources/hosting" class="navbar-item is-rounded ">Hosting</a>
+                            
+                            <a href="/resources/other" class="navbar-item is-rounded ">Altro</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/blog/" class="navbar-item is-rounded ">Blog</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+		
+
+		
+	
+		<section class="hero  is-medium  is-bold is-primary" style="background: url('https://miro.medium.com/max/2560/1*Ht8T-vqbqy5iG7FzNQGjFA.png') no-repeat center center; background-size: cover;">
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-1">Vue</h1>
+            <p class="subtitle is-3"></p>
+            
+                <a href="https://vuejs.org/" class="button  is-light  is-outlined is-rounded is-medium" target="_blank" rel="noopener noreferrer">Vai al sito</a>
+            
+        </div>
+    </div>
+</section>
+	
+
+
+
+
+
+
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			
+			<div class="column is-4-desktop is-4-tablet">
+				
+
+<aside class="menu">
+
+    <p class="menu-label">Web</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/frontend" class="">Front-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/backend" class="">Back-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/devops" class="">DevOps</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/hosting" class="">Hosting</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Apps</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/ios" class="">iOS</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/android" class="">Android</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Esplora</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/other" class="">Altro</a>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+			</div>
+			
+			<div class="column ">
+				
+				
+				
+
+				
+<div class="content">
+    <h1 id="introduzione">Introduzione</h1>
+
+<p><strong>Vue.js</strong> è un potente framework per la realizzazione di applicazioni frontend. Come altri framework sul mercato, ti consente di scomporre la tua applicazione in componenti, ognuno con una propria logica, stato, stile e markup.</p>
+
+<h1 id="componenti">Componenti</h1>
+
+<p>La documentazione ufficiale si sofferma molto sulla creazione di componenti tramite un normale script eseguito direttamente dal browser, tuttavia il modo che secondo noi è più comodo è quello di utilizzare i <strong>Single-File Components</strong>.</p>
+
+<p>Le funzionalità sono le stesse ma la sintassi è molto più pulita e leggibile.</p>
+
+<h2 id="struttura-di-un-single-file-component">Struttura di un Single-File Component</h2>
+
+<p>In questo componente menzioneremo tutti gli <strong>aspetti fondamentali</strong> per creare un componente, seppur minimale.</p>
+
+<div class="language-vue highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;</span><span class="k">template</span><span class="nt">&gt;</span>
+	<span class="c">&lt;!-- Ricorda: i componenti devono partire da un singolo elemento HTML --&gt;</span>
+	<span class="nt">&lt;div&gt;</span>
+        <span class="c">&lt;!-- Posso decidere se mostrare o no qualcosa basandomi su una condizione --&gt;</span>
+        <span class="nt">&lt;h1</span> <span class="na">v-if=</span><span class="s">"titolo != undefined"</span><span class="nt">&gt;</span> (lunghezza = )<span class="nt">&lt;/h1&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">v-else</span><span class="nt">&gt;</span>Nessun titolo definito<span class="nt">&lt;/p&gt;</span>
+        
+        <span class="nt">&lt;p&gt;</span>Questo è il mio componente.<span class="nt">&lt;/p&gt;</span>
+        
+        <span class="nt">&lt;p&gt;</span>Il valore corrente è <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/</span><span class="k">template</span><span class="nt">&gt;</span>
+
+<span class="nt">&lt;</span><span class="k">script</span><span class="nt">&gt;</span>
+    <span class="c1">// Al momento ci troviamo in "Componente.vue"</span>
+    <span class="k">import</span> <span class="nx">qualcosa</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">pacchetto</span><span class="dl">"</span>
+    <span class="k">import</span> <span class="nx">AltroComponente</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">./AltroComponente.vue</span><span class="dl">"</span>
+    
+    <span class="c1">// Qui inizia la definizione vera e propria del componente</span>
+    <span class="c1">// Tutte le variabili sono reattive (mostrano i cambiamenti in tempo reale)</span>
+    <span class="k">export</span> <span class="k">default</span> <span class="p">{</span>
+       <span class="c1">// Le props sono attributi HTML che vengono passati dall'esterno</span>
+        <span class="na">props</span><span class="p">:</span> <span class="p">{</span>
+            <span class="na">titolo</span><span class="p">:</span> <span class="p">{</span>
+                <span class="na">type</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>
+                <span class="na">default</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Questo è il titolo</span><span class="dl">"</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+        <span class="c1">// Se vogliamo utilizzare un componente va prima registrato qui</span>
+        <span class="na">components</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nx">AltroComponente</span>
+        <span class="p">},</span>
+        <span class="c1">// Questo rappresenta</span>
+        <span class="nx">data</span><span class="p">()</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="p">{</span>
+                <span class="na">qualcheValore</span><span class="p">:</span> <span class="mi">0</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+        <span class="c1">// Queste prorpietà sono viste come normali variabili ma sono in realtà il risultato di funzioni</span>
+        <span class="na">computed</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nx">lunghezzaTitolo</span><span class="p">(){</span>
+                <span class="k">return</span> <span class="nx">titolo</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="nt">&lt;/</span><span class="k">script</span><span class="nt">&gt;</span>
+
+<span class="nt">&lt;</span><span class="k">style</span> <span class="na">scoped</span><span class="nt">&gt;</span>
+    <span class="c">/**
+    	Il CSS scritto qui sarà valido solo per quesco componente,
+    	se si desidera renderlo globale rimuovere "scoped" (sconsigliato).
+    */</span>
+    <span class="nt">h1</span> <span class="p">{</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="nt">&lt;/</span><span class="k">style</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="altri-concetti-importanti">Altri concetti importanti</h3>
+
+<ul>
+  <li><a href="https://vuejs.org/v2/guide/computed.html#Watchers" target="_blank" rel="noopener noreferrer">Watchers</a></li>
+  <li><a href="https://vuejs.org/v2/guide/class-and-style.html" target="_blank" rel="noopener noreferrer">Binding di classi e stili</a></li>
+  <li><a href="https://vuejs.org/v2/guide/list.html" target="_blank" rel="noopener noreferrer">Stampa iterativa</a></li>
+  <li><a href="https://vuejs.org/v2/guide/events.html" target="_blank" rel="noopener noreferrer">Eventi</a></li>
+  <li><a href="https://vuejs.org/v2/guide/components-slots.html" target="_blank" rel="noopener noreferrer">Slots</a></li>
+</ul>
+
+<p>… e molto altro, ma per quello ci sta la documentazione!</p>
+
+<h1 id="librerie">Librerie</h1>
+
+<h2 id="vuesax"><a href="https://vuesax.com/" target="_blank" rel="noopener noreferrer">Vuesax</a></h2>
+
+<p>Componenti pronti di alta qualità, dai alla tua app un look moderno senza configurazione!</p>
+
+<h2 id="nuxt"><a href="https://nuxtjs.org/" target="_blank" rel="noopener noreferrer">Nuxt</a></h2>
+
+<p>Il modo definitivo di utilizzare Vue per applicazioni di larga scala, crea applicazioni complesse in pochi minuti!</p>
+
+<h2 id="vuex"><a href="https://vuex.vuejs.org/" target="_blank" rel="noopener noreferrer">Vuex</a></h2>
+
+<p>Libreria ufficiale per costruire uno <em>store</em>, ovvero una memoria dell’applicazione condivisa da tutti i tuoi componenti!</p>
+
+
+<div class="my-small is-flex is-justify-content-space-around">
+	
+		<a href="https://github.com/opentoolbox/developer/issues" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" far  fa-heart  fa-2 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/pulls" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-code-branch  fa-1 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/discussions" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-comments  fa-1 "></i>
+</span>
+		</a>
+	
+</div>
+
+
+
+
+
+    <section class="box is-dark is-family-monospace">
+        <p>
+            <span class="has-text-grey">$:</span>
+            ls
+            <span class="has-text-weight-bold has-text-success">frontend</span>/        
+        </p>
+        <div>
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/animations">Animazioni</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/bootstrap">Bootstrap</a>
+                    </span>
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/bulma">Bulma</a>
+                    </span>
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/decorations">Decorazioni</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/">Front-End</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/react">React</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/svelte">Svelte</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </section>
+
+</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+		
+			<footer class="footer mt-small">
+    <div class="container">
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/" class="link">About</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/rules" class="link">Regole</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+		
+    </div>
+</footer>
+
+<footer class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-3">Credits</p>
+
+            <a href="">
+                <img src="https://contrib.rocks/image?repo=opentoolbox/developer">
+            </a>    
+            
+            <p>You could be here! ☝  Contribute to <a class="has-text-link" href="https://github.com/opentoolbox/developer" target="_blank" rel="noopener noreferrer">this project</a>. </p>
+        </div>
+    </div>
+</footer>
+		
+
+		<script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

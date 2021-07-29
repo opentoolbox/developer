@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+
+
+<html
+	lang="it"
+	
+>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="https://i.ibb.co/N7DTRLZ/Logo-start2impact.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Bulma | The Developer’s Toolbox</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Bulma" />
+<meta name="author" content="community" />
+<meta property="og:locale" content="it" />
+<link rel="canonical" href="https://developer.opentoolbox.online/resources/frontend/bulma" />
+<meta property="og:url" content="https://developer.opentoolbox.online/resources/frontend/bulma" />
+<meta property="og:site_name" content="The Developer’s Toolbox" />
+<meta property="og:image" content="https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png" />
+<meta property="twitter:title" content="Bulma" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://i.ibb.co/N7DTRLZ/Logo-start2impact.png"},"name":"community"},"url":"https://developer.opentoolbox.online/resources/frontend/bulma","@type":"WebPage","image":"https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png","headline":"Bulma","author":{"@type":"Person","name":"community"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+
+	<body>
+		<nav class="navbar has-shadow " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item is-rounded">
+                The Developer's Toolbox
+            </a>
+            <a role="button" class="navbar-burger is-rounded burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu px-small is-rounded" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item is-rounded py-small has-dropdown is-hoverable ">
+                        <a href="/resources/" class="navbar-link is-rounded ">Risorse</a>
+                        <div class="navbar-dropdown is-boxed">
+                            
+                            <a href="/resources/frontend/" class="navbar-item is-rounded ">Front-End</a>
+                            
+                            <a href="/resources/backend/" class="navbar-item is-rounded ">Back-End</a>
+                            
+                            <a href="/resources/hosting" class="navbar-item is-rounded ">Hosting</a>
+                            
+                            <a href="/resources/other" class="navbar-item is-rounded ">Altro</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/blog/" class="navbar-item is-rounded ">Blog</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+		
+
+		
+	
+		<section class="hero  is-medium  is-bold is-primary" style="background: url('https://i.ibb.co/ZX6yLC2/Bulma.png') no-repeat center center; background-size: cover;">
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-1">Bulma</h1>
+            <p class="subtitle is-3">Migliora il look del tuo sito con pochissime classi.</p>
+            
+                <a href="https://bulma.io/" class="button  is-light  is-outlined is-rounded is-medium" target="_blank" rel="noopener noreferrer">Vai al sito</a>
+            
+        </div>
+    </div>
+</section>
+	
+
+
+
+
+
+
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			
+			<div class="column is-4-desktop is-4-tablet">
+				
+
+<aside class="menu">
+
+    <p class="menu-label">Web</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/frontend" class="">Front-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/backend" class="">Back-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/devops" class="">DevOps</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/hosting" class="">Hosting</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Apps</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/ios" class="">iOS</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/android" class="">Android</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Esplora</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/other" class="">Altro</a>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+			</div>
+			
+			<div class="column ">
+				
+				
+				
+
+				
+<div class="content">
+    <p>Bulma è un framework per CSS con lo scopo di essere facile da imparare, velocizzare la creazione di pagine e lasciare la possibilità di personalizzare il look and feel del tuo sito. Il</p>
+
+<p><em>pss. non dirlo a nessuno ma questo sito utilizza Bulma</em></p>
+
+<p>Al contrario di altri framework, questo viene già pronto con dei set di classi capaci di farti creare componenti complessi.</p>
+
+<p>Piuttosto che applicare tante classi per avere un elemento con, ad esempio, angoli arrotondati, ombra, header e footer, pulsanti etc… con Bulma crei un <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> con la classe <code class="language-plaintext highlighter-rouge">card</code> e sei pronto.</p>
+
+<p>La personalizzazione non manca, infatti hai a disposizione TUTTE le variabili di <em>SCSS</em> interne per modificare il comportamento delle varie classi.</p>
+
+<p>Con Bulma è quindi molto più facile e rapido avere uno stile consistente in tutto il tuo sito.</p>
+
+<blockquote>
+  <p>Se non lo hai mai utilizzato avrai un sito pulito e moderno senza fatica, se sei esperto avrai un sito sensazionale.</p>
+</blockquote>
+
+<h1 id="risorse">Risorse</h1>
+
+<h2 id="bulma-play"><a href="https://appseed.us/apps/bulma-css/bulmaplay" target="_blank" rel="noopener noreferrer">Bulma Play</a></h2>
+
+<p>Prendi confidenza con il framework attaverso una pagina di prova interattiva.</p>
+
+<h2 id="da-bootstrap-a-bulma"><a href="https://bulma.io/alternative-to-bootstrap/" target="_blank" rel="noopener noreferrer">Da Bootstrap a Bulma</a></h2>
+
+<p>Lista di differenze tra il popolarissimo Bootstrap e Bulma con aggiunta guida sulla migrazione.</p>
+
+<h2 id="bulma-expo"><a href="https://bulma.io/expo/" target="_blank" rel="noopener noreferrer">Bulma Expo</a></h2>
+
+<p>I migliori siti realizzati con Bulma, si avete visto bene, ci sta pure il sito ufficiale di <a href="https://signal.org/" target="_blank" rel="noopener noreferrer">Signal</a>.
+Tutti questi siti utilizzano le stesse classi, l’unica differenza sono le variabili.</p>
+
+
+<div class="my-small is-flex is-justify-content-space-around">
+	
+		<a href="https://github.com/opentoolbox/developer/issues" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" far  fa-heart  fa-2 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/pulls" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-code-branch  fa-1 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/discussions" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-comments  fa-1 "></i>
+</span>
+		</a>
+	
+</div>
+
+
+
+
+
+    <section class="box is-dark is-family-monospace">
+        <p>
+            <span class="has-text-grey">$:</span>
+            ls
+            <span class="has-text-weight-bold has-text-success">frontend</span>/        
+        </p>
+        <div>
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/animations">Animazioni</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/bootstrap">Bootstrap</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/decorations">Decorazioni</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/">Front-End</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/react">React</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/svelte">Svelte</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/vue">Vue</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </section>
+
+</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+		
+			<footer class="footer mt-small">
+    <div class="container">
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/" class="link">About</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/rules" class="link">Regole</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+		
+    </div>
+</footer>
+
+<footer class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-3">Credits</p>
+
+            <a href="">
+                <img src="https://contrib.rocks/image?repo=opentoolbox/developer">
+            </a>    
+            
+            <p>You could be here! ☝  Contribute to <a class="has-text-link" href="https://github.com/opentoolbox/developer" target="_blank" rel="noopener noreferrer">this project</a>. </p>
+        </div>
+    </div>
+</footer>
+		
+
+		<script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+
+
+<html
+	lang="it"
+	
+>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="https://i.ibb.co/N7DTRLZ/Logo-start2impact.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Laravel | The Developer’s Toolbox</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Laravel" />
+<meta name="author" content="community" />
+<meta property="og:locale" content="it" />
+<link rel="canonical" href="https://developer.opentoolbox.online/resources/backend/laravel" />
+<meta property="og:url" content="https://developer.opentoolbox.online/resources/backend/laravel" />
+<meta property="og:site_name" content="The Developer’s Toolbox" />
+<meta property="og:image" content="https://embed-fastly.wistia.com/deliveries/9c85353a926f914df6d193b126374548.webp?image_crop_resized=1280x720" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://embed-fastly.wistia.com/deliveries/9c85353a926f914df6d193b126374548.webp?image_crop_resized=1280x720" />
+<meta property="twitter:title" content="Laravel" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://i.ibb.co/N7DTRLZ/Logo-start2impact.png"},"name":"community"},"url":"https://developer.opentoolbox.online/resources/backend/laravel","@type":"WebPage","image":"https://embed-fastly.wistia.com/deliveries/9c85353a926f914df6d193b126374548.webp?image_crop_resized=1280x720","headline":"Laravel","author":{"@type":"Person","name":"community"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+
+	<body>
+		<nav class="navbar has-shadow " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item is-rounded">
+                The Developer's Toolbox
+            </a>
+            <a role="button" class="navbar-burger is-rounded burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu px-small is-rounded" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item is-rounded py-small has-dropdown is-hoverable ">
+                        <a href="/resources/" class="navbar-link is-rounded ">Risorse</a>
+                        <div class="navbar-dropdown is-boxed">
+                            
+                            <a href="/resources/frontend/" class="navbar-item is-rounded ">Front-End</a>
+                            
+                            <a href="/resources/backend/" class="navbar-item is-rounded ">Back-End</a>
+                            
+                            <a href="/resources/hosting" class="navbar-item is-rounded ">Hosting</a>
+                            
+                            <a href="/resources/other" class="navbar-item is-rounded ">Altro</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/blog/" class="navbar-item is-rounded ">Blog</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+		
+
+		
+	
+		<section class="hero  is-medium  is-bold is-primary" style="background: url('https://laravel.com/img/hero/hero_poster.jpg') no-repeat center center; background-size: cover;">
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-1">Laravel</h1>
+            <p class="subtitle is-3">Il framework PHP più completo.</p>
+            
+                <a href="https://laravel.com" class="button  is-light  is-outlined is-rounded is-medium" target="_blank" rel="noopener noreferrer">Vai al sito</a>
+            
+        </div>
+    </div>
+</section>
+	
+
+
+
+
+
+
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			
+			<div class="column is-4-desktop is-4-tablet">
+				
+
+<aside class="menu">
+
+    <p class="menu-label">Web</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/frontend" class="">Front-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/backend" class="">Back-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/devops" class="">DevOps</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/hosting" class="">Hosting</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Apps</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/ios" class="">iOS</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/android" class="">Android</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Esplora</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/other" class="">Altro</a>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+			</div>
+			
+			<div class="column ">
+				
+				
+				
+
+				
+<div class="content">
+    <h1 id="introduzione">Introduzione</h1>
+
+<p>Laravel è un framework per creare applicazioni in PHP di qualsiasi livello di complessità. Offre una grande quantità di strumenti per semplificare la vita allo sviluppatore e rimuovere le operazioni ripetitive all’interno di un progetto.</p>
+
+<h1 id="models-lavorare-con-database">
+<a href="https://laravel.com/docs/eloquent" target="_blank" rel="noopener noreferrer">Models</a>: lavorare con database</h1>
+
+<p>Il recupero e/o salvataggio dei dati è reso un gioco da ragazzi grazie ai modelli. Ogni modello rappresenta un’entità, un tipo di dato del tuo database.</p>
+
+<p>Facciamo l’esempio con il modello <code class="language-plaintext highlighter-rouge">User</code> e vediamo alcune delle tante operazioni possibili.</p>
+<h3 id="selezionare-degli-utenti">Selezionare degli utenti</h3>
+
+<p>Prendere tutti gli utenti:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$users</span> <span class="o">=</span> <span class="nc">User</span><span class="o">::</span><span class="nf">all</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Prendere il nome degli utenti maggiorenni:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$users</span> <span class="o">=</span> <span class="nc">User</span><span class="o">::</span><span class="nf">where</span><span class="p">(</span><span class="s1">'age'</span><span class="p">,</span> <span class="s1">'&gt;'</span><span class="p">,</span> <span class="mi">18</span><span class="p">)</span><span class="o">-&gt;</span><span class="nf">get</span><span class="p">(</span><span class="s1">'name'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Trovare un utente specifico tramite chiave primaria:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$user</span> <span class="o">=</span> <span class="nc">User</span><span class="o">::</span><span class="nf">find</span><span class="p">(</span><span class="mi">12345</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="modificare-degli-utenti">Modificare degli utenti</h3>
+
+<p>Qui sotto si vede quanto è semplice recuperare un utente, cambiare delle informazioni e salvare tutto nel database.</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$user</span> <span class="o">=</span> <span class="nc">User</span><span class="o">::</span><span class="nf">find</span><span class="p">(</span><span class="mi">12345</span><span class="p">);</span>
+
+<span class="nv">$user</span><span class="o">-&gt;</span><span class="n">name</span> <span class="o">=</span> <span class="s2">"Mario"</span><span class="p">;</span>
+
+<span class="nv">$user</span><span class="o">-&gt;</span><span class="n">email</span> <span class="o">=</span> <span class="s2">"mario.rossi@email.com"</span>
+
+<span class="nv">$user</span><span class="o">-&gt;</span><span class="nf">save</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h1 id="controllers-la-logica-dellapplicazione">
+<a href="https://laravel.com/docs/controllers" target="_blank" rel="noopener noreferrer">Controllers</a>: la logica dell’applicazione</h1>
+
+<p>I controller sono responsabili per gestire delle richieste. In pratica sono il cuore dell’applicazione, sono loro a chiamare servizi, svolgere operazioni con i modelli, etc.</p>
+
+<p>Prendiamo come esempio un controller per gli utenti:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+
+<span class="kn">namespace</span> <span class="nn">App\Http\Controllers</span><span class="p">;</span>
+
+<span class="kn">use</span> <span class="nc">Illuminate\Http\Request</span><span class="p">;</span>
+<span class="kn">use</span> <span class="nc">App\Http\Controllers\Controller</span><span class="p">;</span>
+<span class="kn">use</span> <span class="nc">App\Models\User</span><span class="p">;</span>
+
+<span class="kd">class</span> <span class="nc">UserController</span> <span class="kd">extends</span> <span class="nc">Controller</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="n">show</span><span class="p">(</span><span class="kt">Request</span> <span class="nv">$request</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">view</span><span class="p">(</span><span class="s1">'user.profile'</span><span class="p">,</span> <span class="p">[</span>
+            <span class="s1">'user'</span> <span class="o">=&gt;</span> <span class="nc">User</span><span class="o">::</span><span class="nf">findOrFail</span><span class="p">(</span><span class="nv">$request</span><span class="o">-&gt;</span><span class="n">id</span><span class="p">)</span>
+        <span class="p">]);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Ogni metodo (pubblico) di un controller rappresenta un’azione che l’utente può compiere, di default ha come argomento un oggetto di dipo <code class="language-plaintext highlighter-rouge">Request</code>, questo viene iniettato da Laravel, vedremo come tra poco.</p>
+
+<p>Questo <code class="language-plaintext highlighter-rouge">$request</code> rappresente la richiesta effettuata dall’utente, contiene tutti i valori inviati dal client così come header ed altre info utili (es. quale utente ha effettuato la richiesta con <code class="language-plaintext highlighter-rouge">$request-&gt;user()</code>);</p>
+
+<h1 id="routing-gestire-i-percorsi-della-tua-applicazione">
+<a href="https://laravel.com/docs/routing" target="_blank" rel="noopener noreferrer">Routing</a>: gestire i percorsi della tua applicazione</h1>
+
+<p>Per completare la configurazione minima ci mancano le <em>routes</em>. Queste sono configurazioni che associano un URL ad un certo certo metodo HTTP e metodo di un controller.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Route</span><span class="o">::</span><span class="nf">get</span><span class="p">(</span><span class="s1">'/user/show'</span><span class="p">,</span> <span class="s1">'UserController@show'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Quando l’utente fa una richiesta a quell’URL viene creato l’oggetto di tipo <code class="language-plaintext highlighter-rouge">Request</code> e viene passato al metodo del controller, il quale viene eseguito ed il suo risultato torna all’utente.</p>
+
+<h1 id="continua">Continua…</h1>
+<p>Abbiamo visto solo alcuni dei tanti tool che mette a disposizione Laravel, questi al momento sono il minimo indispensable per creare un’applicazione funzionante.</p>
+
+<p>Qui sotto trovi dei link alla documentazione per approfondire altri concetti di questo bellissimo framework:</p>
+<ul>
+  <li><a href="https://laravel.com/docs/authentication" target="_blank" rel="noopener noreferrer">Autenticazione</a></li>
+  <li><a href="https://laravel.com/docs/requests" target="_blank" rel="noopener noreferrer">Richieste nel dettaglio</a></li>
+  <li><a href="https://laravel.com/docs/validation" target="_blank" rel="noopener noreferrer">Validazione delle richieste</a></li>
+  <li><a href="https://laravel.com/docs/middleware" target="_blank" rel="noopener noreferrer">Middleware</a></li>
+  <li><a href="https://laravel.com/docs/responses" target="_blank" rel="noopener noreferrer">Risposte</a></li>
+  <li><a href="https://laravel.com/docs/views" target="_blank" rel="noopener noreferrer">Views</a></li>
+  <li><a href="https://laravel.com/docs/eloquent-mutators" target="_blank" rel="noopener noreferrer">Casting dei modelli</a></li>
+  <li>
+<a href="https://laravel.com/docs/migrations" target="_blank" rel="noopener noreferrer">Migrazioni database</a> (definizione delle tabelle e delle loro relazioni)</li>
+</ul>
+
+<h1 id="micro-framework">Micro-framework</h1>
+
+<p>Una versione di Laravel ultra-leggera pensate per creare API: <a href="https://lumen.laravel.com" target="_blank" rel="noopener noreferrer">Lumen</a></p>
+
+<p>Una versione di Laravel per creare applicazioni CLI: <a href="https://laravel-zero.com/" target="_blank" rel="noopener noreferrer">Laravel Zero</a> (non ufficiale)</p>
+
+
+<div class="my-small is-flex is-justify-content-space-around">
+	
+		<a href="https://github.com/opentoolbox/developer/issues" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" far  fa-heart  fa-2 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/pulls" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-code-branch  fa-1 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/discussions" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-comments  fa-1 "></i>
+</span>
+		</a>
+	
+</div>
+
+
+
+
+
+    <section class="box is-dark is-family-monospace">
+        <p>
+            <span class="has-text-grey">$:</span>
+            ls
+            <span class="has-text-weight-bold has-text-success">backend</span>/        
+        </p>
+        <div>
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/backend/">Back-End</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/backend/nest.js">NestJS</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </section>
+
+</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+		
+			<footer class="footer mt-small">
+    <div class="container">
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/" class="link">About</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/rules" class="link">Regole</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+		
+    </div>
+</footer>
+
+<footer class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-3">Credits</p>
+
+            <a href="">
+                <img src="https://contrib.rocks/image?repo=opentoolbox/developer">
+            </a>    
+            
+            <p>You could be here! ☝  Contribute to <a class="has-text-link" href="https://github.com/opentoolbox/developer" target="_blank" rel="noopener noreferrer">this project</a>. </p>
+        </div>
+    </div>
+</footer>
+		
+
+		<script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

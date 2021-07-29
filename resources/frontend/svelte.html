@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+
+
+<html
+	lang="it"
+	
+>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="https://i.ibb.co/N7DTRLZ/Logo-start2impact.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Svelte | The Developer’s Toolbox</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Svelte" />
+<meta name="author" content="community" />
+<meta property="og:locale" content="it" />
+<link rel="canonical" href="https://developer.opentoolbox.online/resources/frontend/svelte" />
+<meta property="og:url" content="https://developer.opentoolbox.online/resources/frontend/svelte" />
+<meta property="og:site_name" content="The Developer’s Toolbox" />
+<meta property="og:image" content="https://miro.medium.com/max/2880/1*oHCbzzQSSmDF9icaxCk3iw.jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://miro.medium.com/max/2880/1*oHCbzzQSSmDF9icaxCk3iw.jpeg" />
+<meta property="twitter:title" content="Svelte" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://i.ibb.co/N7DTRLZ/Logo-start2impact.png"},"name":"community"},"url":"https://developer.opentoolbox.online/resources/frontend/svelte","@type":"WebPage","image":"https://miro.medium.com/max/2880/1*oHCbzzQSSmDF9icaxCk3iw.jpeg","headline":"Svelte","author":{"@type":"Person","name":"community"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+
+	<body>
+		<nav class="navbar has-shadow " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item is-rounded">
+                The Developer's Toolbox
+            </a>
+            <a role="button" class="navbar-burger is-rounded burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu px-small is-rounded" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item is-rounded py-small has-dropdown is-hoverable ">
+                        <a href="/resources/" class="navbar-link is-rounded ">Risorse</a>
+                        <div class="navbar-dropdown is-boxed">
+                            
+                            <a href="/resources/frontend/" class="navbar-item is-rounded ">Front-End</a>
+                            
+                            <a href="/resources/backend/" class="navbar-item is-rounded ">Back-End</a>
+                            
+                            <a href="/resources/hosting" class="navbar-item is-rounded ">Hosting</a>
+                            
+                            <a href="/resources/other" class="navbar-item is-rounded ">Altro</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/blog/" class="navbar-item is-rounded ">Blog</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+		
+
+		
+	
+		<section class="hero  is-medium  is-bold is-primary" style="background: url('https://i1.wp.com/css-tricks.com/wp-content/uploads/2019/10/svelte-logo-outline.png?fit=1200%2C600&amp;ssl=1') no-repeat center center; background-size: cover;">
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-1">Svelte</h1>
+            <p class="subtitle is-3"></p>
+            
+                <a href="https://svelte.dev/" class="button  is-light  is-outlined is-rounded is-medium" target="_blank" rel="noopener noreferrer">Vai al sito</a>
+            
+        </div>
+    </div>
+</section>
+	
+
+
+
+
+
+
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			
+			<div class="column is-4-desktop is-4-tablet">
+				
+
+<aside class="menu">
+
+    <p class="menu-label">Web</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/frontend" class="">Front-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/backend" class="">Back-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/devops" class="">DevOps</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/hosting" class="">Hosting</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Apps</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/ios" class="">iOS</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/android" class="">Android</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Esplora</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/other" class="">Altro</a>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+			</div>
+			
+			<div class="column ">
+				
+				
+				
+
+				
+<div class="content">
+    <h1 id="perché-svelte">Perché Svelte?</h1>
+
+<p>La maggior parte dei framework nella scena frontend hanno un grande difetto, ovvero <strong>il peso del bundle finale</strong>. Il motivo per il quale questo peso è così alto è che, oltre al codice scritto dall’utilizzatore, il framework deve iniettare nel risultato finale tutto se stesso per far girare l’applicazione.</p>
+
+<p>Quello che differenzia <strong>Svelte</strong> dalla competizione è il minuscolo <em>footprint</em> del codice JavaScript compilato.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Framework</th>
+      <th style="text-align: left">Bundle Size</th>
+      <th style="text-align: left">Compressed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Angular</td>
+      <td style="text-align: left">180.3kB</td>
+      <td style="text-align: left">62.2kB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Vue</td>
+      <td style="text-align: left">63.7kB</td>
+      <td style="text-align: left">22.9kB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Preact</td>
+      <td style="text-align: left">10.4kB</td>
+      <td style="text-align: left">4kB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">React</td>
+      <td style="text-align: left">6.3kB</td>
+      <td style="text-align: left">2.6kB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Svelte</td>
+      <td style="text-align: left">3.8kB</td>
+      <td style="text-align: left">1.5kB</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>Source: <a href="https://dev.to/hanna/why-svelte-is-revolutionary-415e" target="_blank" rel="noopener noreferrer">Why Svelte is revolutionary</a></em></p>
+
+<p>Quando si crea un nuovo progetto con Svelte ci si accorgerà che la sezione <code class="language-plaintext highlighter-rouge">dependencies</code> del proprio <em>package.json</em> è totalmente vuota, questo perché il codice del framework non va incluso nel prodotto finale.</p>
+
+<h1 id="componenti">Componenti</h1>
+
+<p>La sintassi dei componenti è molto simile a quella di <a href="vue">Vue.js</a>, vediamo com’è fatta.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+	<span class="c1">// logica del componente</span>
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;style&gt;</span>
+	<span class="c">/* stile di questo singolo componente */</span>
+<span class="nt">&lt;/style&gt;</span>
+
+<span class="c">&lt;!-- il classico codice HTML va inserito qui, se serve --&gt;</span>
+</code></pre></div></div>
+
+<p>Concentriamoci sullo script di un componente, visto che HTML e CSS di sicuro lo conosci se sei qui 😉.</p>
+
+<blockquote>
+  <p><strong>Ricorda:</strong> I tag che iniziano con una lettera minuscola (come <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code>) rappresentano elementi HTML nativi, mentre quelli che iniziano con una lettera maiuscola (come <code class="language-plaintext highlighter-rouge">&lt;Widget&gt;</code>) rappresentano dei componenti.</p>
+</blockquote>
+
+<h2 id="variabili-interne">Variabili interne</h2>
+
+<p>Per avere delle variabili reattive all’interno del tuo componente devi dichiararle, e non potrebbe essere più semplice.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+	<span class="kd">let</span> <span class="nx">myValue</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>Questo valore può essere poi utilizzato nel markup nella seguente maniera.</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Il valore corrente è <span class="si">{</span><span class="nx">myValue</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>Abbiamo appena creato un bind da una variabile ad un elemento HTML, se invece vogliamo fare l’opposto dobbiamo effettuare un <em>bind inverso</em>.</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nt">input</span> <span class="na">bind</span><span class="err">:</span><span class="na">value</span><span class="p">=</span><span class="si">{</span><span class="nx">myValue</span><span class="si">}</span> <span class="p">/&gt;</span>
+</code></pre></div></div>
+
+<p>Questa direttiva aggiornerà la nostra variabile ogni volta che l’input andrà a variare.</p>
+
+<p>Le variabili possono essere utilizzate anche all’interno di attributi.</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="p">=</span><span class="s">"page/{p}"</span><span class="p">&gt;</span>page <span class="si">{</span><span class="nx">p</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>Oppure si possono utilizzare delle espressioni per definire il valore di un attributo.</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nt">button</span> <span class="na">disabled</span><span class="p">=</span><span class="si">{</span><span class="nx">someValue</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="si">}</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<h2 id="variabili-esterne">Variabili esterne</h2>
+
+<p>Queste sono le variabili che vengono utilizzate per dare dei valori in input ad un componente, riscriviamo il nostro componente in maniera da fargli ricevere un input da fuori.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+	<span class="k">export</span> <span class="kd">let</span> <span class="nx">myValue</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">// in questo caso, 0 è il valore di default in caso non venisse fornito nulla dall'esterno.</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>Fatto, veloce vero?</p>
+
+<p>Importiamo il nostro componente, che chiameremo <em>Widget</em>, e diamo un valore in input alla nostra variabile.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script&gt;
+	import Widget from "./Widget";
+&lt;/script&gt;
+
+&lt;h1&gt; Test per il widget &lt;/h1&gt;
+
+&lt;Widget myValue=42 /&gt;
+</code></pre></div></div>
+
+<h1 id="figo-vero">Figo vero?</h1>
+
+<p>Quello che abbiamo visto è solo un assaggio di come Svelte sia in grado di rendere semplice la costruzione di componenti di un’interfaccia web. Abbiamo appena toccato la punta dell’iceberg, anche gli aspetti più complicati degli altri framework qui sono riassunti con una riga di codice o due, quindi ti invito a continuare.</p>
+
+<h1 id="sapper"><a href="https://sapper.svelte.dev" target="_blank" rel="noopener noreferrer">Sapper</a></h1>
+
+<p>Vuoi creare applicazioni complesse con Svelte senza configurare manualmente le route? Dividi la tua applicazione in pagine e cartelle con l’aiuto di Sapper.</p>
+
+<h1 id="sveltekit"><a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer">SvelteKit</a></h1>
+
+<p>La tua applicazione è davvero grande e complessa? Non sacrificare la velocità e la SEO, sfrutta il Server-Side Rendering, crea delle API, interagisci direttamente con il tuo database e molto altro con SvelteKit!</p>
+
+
+<div class="my-small is-flex is-justify-content-space-around">
+	
+		<a href="https://github.com/opentoolbox/developer/issues" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" far  fa-heart  fa-2 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/pulls" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-code-branch  fa-1 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/discussions" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-comments  fa-1 "></i>
+</span>
+		</a>
+	
+</div>
+
+
+
+
+
+    <section class="box is-dark is-family-monospace">
+        <p>
+            <span class="has-text-grey">$:</span>
+            ls
+            <span class="has-text-weight-bold has-text-success">frontend</span>/        
+        </p>
+        <div>
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/animations">Animazioni</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/bootstrap">Bootstrap</a>
+                    </span>
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/bulma">Bulma</a>
+                    </span>
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/decorations">Decorazioni</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/">Front-End</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/react">React</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/frontend/vue">Vue</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </section>
+
+</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+		
+			<footer class="footer mt-small">
+    <div class="container">
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/" class="link">About</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/rules" class="link">Regole</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+		
+    </div>
+</footer>
+
+<footer class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-3">Credits</p>
+
+            <a href="">
+                <img src="https://contrib.rocks/image?repo=opentoolbox/developer">
+            </a>    
+            
+            <p>You could be here! ☝  Contribute to <a class="has-text-link" href="https://github.com/opentoolbox/developer" target="_blank" rel="noopener noreferrer">this project</a>. </p>
+        </div>
+    </div>
+</footer>
+		
+
+		<script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

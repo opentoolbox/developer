@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+
+
+
+<html
+	lang="it"
+	
+>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="https://i.ibb.co/N7DTRLZ/Logo-start2impact.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Deploy Laravel su qualsiasi server Ubuntu | The Developer’s Toolbox</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Deploy Laravel su qualsiasi server Ubuntu" />
+<meta name="author" content="community" />
+<meta property="og:locale" content="it" />
+<link rel="canonical" href="https://developer.opentoolbox.online/resources/devops/Deploy-Laravel-On-Ubuntu" />
+<meta property="og:url" content="https://developer.opentoolbox.online/resources/devops/Deploy-Laravel-On-Ubuntu" />
+<meta property="og:site_name" content="The Developer’s Toolbox" />
+<meta property="og:image" content="https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg" />
+<meta property="twitter:title" content="Deploy Laravel su qualsiasi server Ubuntu" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://i.ibb.co/N7DTRLZ/Logo-start2impact.png"},"name":"community"},"url":"https://developer.opentoolbox.online/resources/devops/Deploy-Laravel-On-Ubuntu","@type":"WebPage","image":"https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg","headline":"Deploy Laravel su qualsiasi server Ubuntu","author":{"@type":"Person","name":"community"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+
+	<body>
+		<nav class="navbar has-shadow " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item is-rounded">
+                The Developer's Toolbox
+            </a>
+            <a role="button" class="navbar-burger is-rounded burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu px-small is-rounded" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item is-rounded py-small has-dropdown is-hoverable ">
+                        <a href="/resources/" class="navbar-link is-rounded ">Risorse</a>
+                        <div class="navbar-dropdown is-boxed">
+                            
+                            <a href="/resources/frontend/" class="navbar-item is-rounded ">Front-End</a>
+                            
+                            <a href="/resources/backend/" class="navbar-item is-rounded ">Back-End</a>
+                            
+                            <a href="/resources/hosting" class="navbar-item is-rounded ">Hosting</a>
+                            
+                            <a href="/resources/other" class="navbar-item is-rounded ">Altro</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/blog/" class="navbar-item is-rounded ">Blog</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+		
+
+		
+	
+		<section class="hero  is-medium  is-bold is-primary" style="background: url('https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg') no-repeat center center; background-size: cover;">
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-1">Deploy Laravel su qualsiasi server Ubuntu</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+	
+
+
+
+
+
+
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			
+			<div class="column is-4-desktop is-4-tablet">
+				
+
+<aside class="menu">
+
+    <p class="menu-label">Web</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/frontend" class="">Front-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/backend" class="">Back-End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/devops" class="">DevOps</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/hosting" class="">Hosting</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Apps</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/ios" class="">iOS</a>
+            
+        </li>
+        
+        <li>
+            <a href="/resources/android" class="">Android</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Esplora</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/resources/other" class="">Altro</a>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+			</div>
+			
+			<div class="column ">
+				
+				
+				
+
+				
+<div class="content">
+    <h1 id="deploy-aws-laravel-o-su-un-qualsiasi-web-server-linux">Deploy AWS laravel (o su un qualsiasi web server linux)</h1>
+
+<p>Questa guida è in realtà un aggregato di più risorse con diversi bug e incompatibilità.</p>
+
+<h1 id="stack-utilizzato">Stack utilizzato</h1>
+
+<ul>
+  <li>Laravel Framework 8.32.1</li>
+  <li>Debian 10</li>
+  <li>MariaDB</li>
+  <li>Nginx</li>
+  <li>Docker version 20.10.5, build 55c4c88</li>
+</ul>
+
+<p>Su Debian abbiamo istallato nginx, ci sono tantissime guide per istallarlo una di queste è:</p>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-debian-10" target="_blank" rel="noopener noreferrer">https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-debian-10</a></p>
+
+<h1 id="istallare-docker">Istallare Docker</h1>
+
+<p>Su Debian 10 dobbiamo istallare Docker. Possiamo fare riferimento alla documentazione ufficiale di Docker:</p>
+
+<p><a href="https://docs.docker.com/engine/install/debian/" target="_blank" rel="noopener noreferrer">https://docs.docker.com/engine/install/debian/</a></p>
+
+<p>Tuttavia potremmo riscontrare problemi nellístallazione di docker-ce poiché dipende da containerd.io che dipende da libseccomp2</p>
+
+<p>In questo caso il pacchetto va istallato manualmente secondo la versione specificata dall’errore mostrato in consolle al momento dell’istallazione di Docker</p>
+
+<p>Libseccomp 2 è scaricabile da qui: <a href="https://packages.debian.org/buster/libseccomp2" target="_blank" rel="noopener noreferrer">https://packages.debian.org/buster/libseccomp2</a></p>
+
+<p>Poi possiamo trasferire il file .deb tramite SFTP sul server e istallarlo con questo comando <code class="language-plaintext highlighter-rouge">sudo dpkg -i package_file.deb</code>  dove <code class="language-plaintext highlighter-rouge">pakage_file</code> va sostituito con path e nome del file scaricato</p>
+
+<h1 id="creazione-file-necessari">Creazione file necessari</h1>
+
+<p>Spostiamoci in locale e creiamo i file necessari al deploy</p>
+
+<h2 id="creazione-di-docker-composeyml">Creazione di docker-compose.yml</h2>
+
+<p>Nella directory principale del progetto creiamo un file chiamato <code class="language-plaintext highlighter-rouge">docker-compose.yml</code></p>
+
+<p>Lo script completo del file è questo</p>
+
+<div class="language-docker highlighter-rouge"><div class="highlight"><pre class="highlight"><code>version: '3'
+services:
+
+  #PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: digitalocean.com/php
+    container_name: app
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+      - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - app-network
+
+  <span class="c">#Nginx Service</span>
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - app-network
+
+  <span class="c">#MySQL Service</span>
+  db:
+    image: mysql:5.7.22
+    container_name: db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: &lt;db_name&gt;
+      MYSQL_ROOT_PASSWORD: &lt;db_password&gt;
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - dbdata:/var/lib/mysql/
+      - ./mysql/my.cnf:/etc/mysql/my.cnf
+    networks:
+      - app-network
+
+<span class="c">#Docker Networks</span>
+networks:
+  app-network:
+    driver: bridge
+<span class="c">#Volumes</span>
+volumes:
+  dbdata:
+    driver: local
+</code></pre></div></div>
+
+<p>Lo script è diviso in diverse parti</p>
+
+<h3 id="php">PHP</h3>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">image</code>  specifica l’immagine di docker da utilizzare nel container, in questo caso quella di digitaocean che ha quello che ci serve per la build di laravel</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">working-dir</code> sarà la directory del container in cui si trova la nosra build</li>
+</ul>
+
+<h3 id="webserver">Webserver</h3>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">image</code> ci dice quale immagine di nginx andremo ad utilizzare</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">ports</code> serve per mappare le porte del nostro server sulle porte del container</li>
+</ul>
+
+<h3 id="mysql">Mysql</h3>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">image</code> ci dice l’mmagine di mysql da utilizzare</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">ports</code> come prima serve a mappare la porta del server su quella del container</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">environment</code> ci permette di settare il nome del nostro db e la password. Importante: non utilizzare numeri o caratteri speciali o docker darà errore</li>
+</ul>
+
+<p>Notiamo che in tutti è stata definita una propriet<code class="language-plaintext highlighter-rouge">chiamata </code>network` che poi viene specificata in fondo al file. I tre container sono connessi ad un bridge network per comunicare tra di loro. Container che si trovano in network diversi non possono comunicare tra loro e questo rende più sicura l’app. Infatti potremmo mettere i container del frontend su un network diverso. Attenzione: ciò non significa che il frontend non possa fare chiamate API al backend.</p>
+
+<h2 id="creiamo-il-dockerfile">Creiamo il Dockerfile</h2>
+
+<p>Sempre nella directory principale creiamo un file chiamato <code class="language-plaintext highlighter-rouge">Dockerfile</code></p>
+
+<div class="language-docker highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> php:8.0-fpm</span>
+
+<span class="c"># Copy composer.lock and composer.json</span>
+<span class="k">COPY</span><span class="s"> composer.lock composer.json /var/www/</span>
+
+<span class="c"># Set working directory</span>
+<span class="k">WORKDIR</span><span class="s"> /var/www</span>
+
+<span class="c"># Install dependencies</span>
+<span class="k">RUN </span>apt-get update <span class="o">&amp;&amp;</span> apt-get <span class="nb">install</span> <span class="nt">-y</span> <span class="se">\
+</span>    build-essential <span class="se">\
+</span>    libpng-dev <span class="se">\
+</span>    libjpeg62-turbo-dev <span class="se">\
+</span>    libfreetype6-dev <span class="se">\
+</span>    locales <span class="se">\
+</span>    zip <span class="se">\
+</span>    jpegoptim optipng pngquant gifsicle <span class="se">\
+</span>    vim <span class="se">\
+</span>    unzip <span class="se">\
+</span>    git <span class="se">\
+</span>    curl
+
+<span class="c"># Clear cache</span>
+<span class="k">RUN </span>apt-get clean <span class="o">&amp;&amp;</span> <span class="nb">rm</span> <span class="nt">-rf</span> /var/lib/apt/lists/<span class="k">*</span>
+
+<span class="c"># Install extensions</span>
+<span class="k">RUN </span>docker-php-ext-install pdo_mysql exif pcntl
+<span class="k">RUN </span>docker-php-ext-configure gd <span class="nt">--with-freetype</span> <span class="nt">--with-jpeg</span>
+<span class="k">RUN </span>docker-php-ext-install gd
+
+<span class="c"># Install composer</span>
+<span class="k">RUN </span>curl <span class="nt">-sS</span> https://getcomposer.org/installer | php <span class="nt">--</span> <span class="nt">--install-dir</span><span class="o">=</span>/usr/local/bin <span class="nt">--filename</span><span class="o">=</span>composer
+
+<span class="c"># Add user for laravel application</span>
+<span class="k">RUN </span>groupadd <span class="nt">-g</span> 1000 www
+<span class="k">RUN </span>useradd <span class="nt">-u</span> 1000 <span class="nt">-ms</span> /bin/bash <span class="nt">-g</span> www www
+
+<span class="c"># Copy existing application directory contents</span>
+<span class="k">COPY</span><span class="s"> . /var/www</span>
+
+<span class="c"># Copy existing application directory permissions</span>
+<span class="k">COPY</span><span class="s"> --chown=www:www . /var/www</span>
+
+<span class="c"># Change current user to www</span>
+<span class="k">USER</span><span class="s"> www</span>
+
+<span class="c"># Expose port 9000 and start php-fpm server</span>
+<span class="k">EXPOSE</span><span class="s"> 9000</span>
+<span class="k">CMD</span><span class="s"> ["php-fpm"]</span>
+</code></pre></div></div>
+
+<p>Questo file serve per istallare tutte le dependency utili a Laravel ed esporre la porta su cui girerà la nostra applicazione ossia la 9000.</p>
+
+<p><strong>ATTENZIONE: La versione di php specificata deve essere quella richiesta dal progetto. Controllate sul file</strong> <code class="language-plaintext highlighter-rouge">composer.json</code> <strong>quale versione viene richiesta.</strong></p>
+
+<h2 id="creazione-phpini">Creazione php.ini</h2>
+
+<p>Nella directory principale creiamo una cartella chiamata <code class="language-plaintext highlighter-rouge">php</code> e all’interno un file chiamato<code class="language-plaintext highlighter-rouge">local.ini</code> con la seguente configurazione:</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">upload_max_filesize</span><span class="o">=</span><span class="mi">40</span><span class="nc">M</span>
+<span class="n">post_max_size</span><span class="o">=</span><span class="mi">40</span><span class="nc">M</span>
+</code></pre></div></div>
+
+<p>Questa è solo la configurazione base che impone il limie all’upload dei file a 40 mb ma possiamo aggiungere qualsiasi qualsiasi altra variabile alla configurazione.</p>
+
+<h2 id="configurazione-nginx">Configurazione nginx</h2>
+
+<p>Nella directory principale creiamo una cartella chiamata <code class="language-plaintext highlighter-rouge">nginx</code> e all’interno una cartella chiamata <code class="language-plaintext highlighter-rouge">conf.d</code>  all’interno di quest’ultima creiamo un file chiamato <code class="language-plaintext highlighter-rouge">app.conf</code> con il seguente script</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">server</span> <span class="p">{</span>
+    <span class="n">listen</span> <span class="mi">80</span><span class="p">;</span>
+    <span class="n">index</span> <span class="n">index</span><span class="mf">.</span><span class="n">php</span> <span class="n">index</span><span class="mf">.</span><span class="n">html</span><span class="p">;</span>
+    <span class="n">error_log</span>  <span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">log</span><span class="o">/</span><span class="n">nginx</span><span class="o">/</span><span class="n">error</span><span class="mf">.</span><span class="n">log</span><span class="p">;</span>
+    <span class="n">access_log</span> <span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">log</span><span class="o">/</span><span class="n">nginx</span><span class="o">/</span><span class="n">access</span><span class="mf">.</span><span class="n">log</span><span class="p">;</span>
+    <span class="n">root</span> <span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="k">public</span><span class="p">;</span>
+    <span class="n">location</span> <span class="o">~</span> <span class="err">\</span><span class="mf">.</span><span class="n">php</span><span class="err">$</span> <span class="p">{</span>
+        <span class="n">try_files</span> <span class="nv">$uri</span> <span class="o">=</span><span class="mi">404</span><span class="p">;</span>
+        <span class="n">fastcgi_split_path_info</span> <span class="o">^</span><span class="p">(</span><span class="mf">.</span><span class="o">+</span><span class="err">\</span><span class="mf">.</span><span class="n">php</span><span class="p">)(</span><span class="o">/.+</span><span class="p">)</span><span class="err">$</span><span class="p">;</span>
+        <span class="n">fastcgi_pass</span> <span class="n">app</span><span class="o">:</span><span class="mi">9000</span><span class="p">;</span>
+        <span class="n">fastcgi_index</span> <span class="n">index</span><span class="mf">.</span><span class="n">php</span><span class="p">;</span>
+        <span class="k">include</span> <span class="n">fastcgi_params</span><span class="p">;</span>
+        <span class="n">fastcgi_param</span> <span class="no">SCRIPT_FILENAME</span> <span class="nv">$document_root$fastcgi_script_name</span><span class="p">;</span>
+        <span class="n">fastcgi_param</span> <span class="no">PATH_INFO</span> <span class="nv">$fastcgi_path_info</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">location</span> <span class="o">/</span> <span class="p">{</span>
+        <span class="n">try_files</span> <span class="nv">$uri</span> <span class="nv">$uri</span><span class="o">/</span> <span class="o">/</span><span class="n">index</span><span class="mf">.</span><span class="n">php</span><span class="o">?</span><span class="nv">$query_string</span><span class="p">;</span>
+        <span class="n">gzip_static</span> <span class="n">on</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>il blocco php ci dice che l’app si connetterà a tcp sulla porta 9000</p>
+
+<h2 id="configurazione-mysql">Configurazione mysql</h2>
+
+<p>Creiamo nella directory del progetto una cartella chiamata <code class="language-plaintext highlighter-rouge">mysql</code> e successivamente un file nella directory chiamato <code class="language-plaintext highlighter-rouge">my.cn</code> con il seguente script</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="n">mysqld</span><span class="p">]</span>
+<span class="n">general_log</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">general_log_file</span> <span class="o">=</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">mysql</span><span class="o">/</span><span class="k">general</span><span class="p">.</span><span class="n">log</span>
+</code></pre></div></div>
+
+<p>Questo file serve a permetterci di generare dei log su un file che verrà creato quando necessario</p>
+
+<p>Possiamo anche estendere la configurazione successivamente</p>
+
+<h1 id="configuriamo-il-file-env">Configuriamo il file .env</h1>
+
+<p>Spostiamoci nel file <code class="language-plaintext highlighter-rouge">.env</code> nella sezione database quì dovremo specificare alcuni parametri</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">DB_CONNECTION</span><span class="o">=</span><span class="n">mysql</span>
+<span class="n">DB_HOST</span><span class="o">=</span><span class="n">db</span>
+<span class="n">DB_PORT</span><span class="o">=</span><span class="mi">3306</span>
+<span class="n">DB_DATABASE</span><span class="o">=&lt;</span><span class="n">db_name</span><span class="o">&gt;</span>
+<span class="n">DB_USERNAME</span><span class="o">=&lt;</span><span class="n">db_user</span><span class="o">&gt;</span>
+<span class="n">DB_PASSWORD</span><span class="o">=&lt;</span><span class="n">db_password</span><span class="o">&gt;</span>
+
+</code></pre></div></div>
+
+<p><strong>il nome del database e la password devono essere gli stessi del file dockercompose creato prima</strong></p>
+
+<h1 id="clonare-la-repo-nel-nostro-server">Clonare la repo nel nostro server</h1>
+
+<p>Accediamo tramite ssh al nostro server . Possiamo usare direttamente il nostro terminale per accedere tramite ssh o un qualsiasi altro programma (putty o termius). In caso di deploy su AWS dobbiamo tenere con noi la chiave .ppk che abbiamo creato quando abbiamo avviato l’istanza dalla consolle di ec2.</p>
+
+<p>Nella root folder cloniamo la repo da gitlab, github, bitbucket…</p>
+
+<h1 id="build-con-docker">Build con docker</h1>
+
+<p>Dal terminale spostiamoci nella cartella appena clonata</p>
+
+<p>eseguiamo il comando <code class="language-plaintext highlighter-rouge">docker-compose up -d</code></p>
+
+<p>Al termine della build tramite <code class="language-plaintext highlighter-rouge">docker ps</code> possiamo vedere i nostri 3 container ossia app, webserver e db con relative porte</p>
+
+<p>Generiamo le chiavi della nostra app con il comando <code class="language-plaintext highlighter-rouge">docker-compose exec app php artisan key:generate</code></p>
+
+<p>Poi configuriamo una cache con il comando <code class="language-plaintext highlighter-rouge">docker-compose exec app php artisan config:cache</code></p>
+
+<h1 id="creazione-utente-per-il-db">Creazione utente per il db</h1>
+
+<p>Precedentemente nel file .env abbiamo specificato l’utente per il db. Ora dobbiamo crearlo.</p>
+
+<p>Sempre dalla consolle eseguiamo <code class="language-plaintext highlighter-rouge">docker-compose exec db bash</code> poi <code class="language-plaintext highlighter-rouge">mysql -u root -p</code></p>
+
+<p>Inseriamo la stessa password che abbiamo messo nel file <code class="language-plaintext highlighter-rouge">.env</code></p>
+
+<p>Ora creiamo un nuovo utente con il comando:</p>
+
+<p><code class="language-plaintext highlighter-rouge">GRANT ALL ON &lt;db_user&gt;.* TO '&lt;username&gt;'@'%' IDENTIFIED BY '&lt;password&gt;';</code></p>
+
+<p>Username e password devono essere gli stessi del file .env</p>
+
+<p>Ora aggiorniamo i privilegi con il comenado <code class="language-plaintext highlighter-rouge">FLUSH PRIVILEGES;</code> e usciamo da mysql con il comando <code class="language-plaintext highlighter-rouge">EXIT;</code></p>
+
+<p>usciamo anche dalla bsh consolle con il comando <code class="language-plaintext highlighter-rouge">exit</code></p>
+
+<h1 id="migrazione-tabelle">Migrazione tabelle</h1>
+
+<p>Ora migriamo le tabelle nel db con il comando <code class="language-plaintext highlighter-rouge">docker-compose exec app php artisan migrate</code></p>
+
+<p>Se stiamo usando passport per l’authentication dovremo anche eseguire <code class="language-plaintext highlighter-rouge">docker-compose exec app php artisan php artisan passport:install</code></p>
+
+<h1 id="note-finali">Note finali</h1>
+
+<p>Ogni volta che facciamo il deploy gli unici step da eseguire saranno la pull del repository sul server la build e lo step per la migration. Per eseguire la pull da gitlab potrebbe essere necessario ottenere delle ssh keys. In caso riferirsi a:</p>
+
+<p><a href="https://docs.gitlab.com/ee/ssh/" target="_blank" rel="noopener noreferrer">https://docs.gitlab.com/ee/ssh/</a></p>
+
+
+<div class="my-small is-flex is-justify-content-space-around">
+	
+		<a href="https://github.com/opentoolbox/developer/issues" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" far  fa-heart  fa-2 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/pulls" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-code-branch  fa-1 "></i>
+</span>
+		</a>
+	
+
+	
+		<a href="https://github.com/opentoolbox/developer/discussions" target="_blank" rel="noopener noreferrer">
+			<span class="icon ">
+	<i class=" fas  fa-comments  fa-1 "></i>
+</span>
+		</a>
+	
+</div>
+
+
+
+
+
+    <section class="box is-dark is-family-monospace">
+        <p>
+            <span class="has-text-grey">$:</span>
+            ls
+            <span class="has-text-weight-bold has-text-success">devops</span>/        
+        </p>
+        <div>
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/devops/docker">Docker</a>
+                    </span>
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/devops/gitlab">Gitlab</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <span class="is-block">
+                        <span class="has-text-grey">&gt;</span>
+                        <a href="/resources/devops/">DevOps</a>
+                    </span>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </section>
+
+</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+		
+			<footer class="footer mt-small">
+    <div class="container">
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/" class="link">About</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about/rules" class="link">Regole</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+		
+    </div>
+</footer>
+
+<footer class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-3">Credits</p>
+
+            <a href="">
+                <img src="https://contrib.rocks/image?repo=opentoolbox/developer">
+            </a>    
+            
+            <p>You could be here! ☝  Contribute to <a class="has-text-link" href="https://github.com/opentoolbox/developer" target="_blank" rel="noopener noreferrer">this project</a>. </p>
+        </div>
+    </div>
+</footer>
+		
+
+		<script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

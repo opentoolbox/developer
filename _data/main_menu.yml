@@ -20,7 +20,14 @@
     - name: Android
       link: /resources/android
 
+- label: Eventi
+  items:
+    - name: Masterminds
+      link: /resources/masterminds
+
 - label: Esplora
   items:
+    - name: Testing
+      link: /resources/testing
     - name: Altro
       link: /resources/other

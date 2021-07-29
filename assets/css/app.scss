@@ -6,7 +6,6 @@
 ////////////////////////////////////////////////
 
 // This imports all the resources that need to be downloaded over the internet (such as: fonts, stylesheets, etc.)
-@import "external";
 @import "variables";
 
 // Your custom variables/rules/anything goes here
@@ -16,6 +15,9 @@ $secondary: $yellow;
 $dark: $grey-darker;
 $link: lighten($blue, 10);
 $info: $blue;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800;900&display=swap');
+$family-sans-serif: "Nunito", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
 
 $navbar-background-color: $dark;

@@ -10,6 +10,7 @@ repository: opentoolbox/developer
 theme: jekyll-theme-opentoolbox
 
 footer_menu: footer_menu
+fixed_navbar: top
 
 links:
   feedback: https://github.com/opentoolbox/developer/issues

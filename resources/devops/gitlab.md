@@ -2,9 +2,9 @@
 title: Gitlab
 subtitle: CI/CD tool.
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ55dGpVD30l9RYPAokgTZ-6UrEp_J0rZh3RQ&usqp=CAU
-hero_image: https://gitlab.frickelstudio.com/uploads/-/system/appearance/logo/1/e1c1da00-gitlab.png
-hero_link: https://about.gitlab.com/
-hero_link_text: Vai al sito
+banner_image: https://gitlab.frickelstudio.com/uploads/-/system/appearance/logo/1/e1c1da00-gitlab.png
+banner_link: https://about.gitlab.com/
+banner_link_text: Vai al sito
 ---
 # Gitlab
 

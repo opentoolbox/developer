@@ -2,9 +2,9 @@
 title: Bootstrap
 subtitle: Il framework CSS più completo.
 image: https://i.ibb.co/jL7hgbd/bootstrap.png
-hero_image: https://i.ibb.co/jL7hgbd/bootstrap.png
-hero_link: https://getbootstrap.com/
-hero_link_text: Vai al sito
+banner_image: https://i.ibb.co/jL7hgbd/bootstrap.png
+banner_link: https://getbootstrap.com/
+banner_link_text: Vai al sito
 category: frontend
 ---
 

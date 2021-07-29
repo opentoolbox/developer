@@ -1,9 +1,9 @@
 ---
 title: Svelte
 image: https://miro.medium.com/max/2880/1*oHCbzzQSSmDF9icaxCk3iw.jpeg
-hero_image: https://i1.wp.com/css-tricks.com/wp-content/uploads/2019/10/svelte-logo-outline.png?fit=1200%2C600&ssl=1
-hero_link: https://svelte.dev/
-hero_link_text: Vai al sito
+banner_image: https://i1.wp.com/css-tricks.com/wp-content/uploads/2019/10/svelte-logo-outline.png?fit=1200%2C600&ssl=1
+banner_link: https://svelte.dev/
+banner_link_text: Vai al sito
 ---
 
 # Perché Svelte?

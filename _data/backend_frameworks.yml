@@ -2,13 +2,13 @@ style: is-light
 height: is-small
 items:
   - title: Laravel
-    icon: fa-laravel
+    icon: laravel
     icon_brand: true
     call_to_action_name: Vai
     call_to_action_link: /resources/backend/laravel
 
   - title: Nest
-    icon: fa-cat
+    icon: cat
     icon_brand: false
     call_to_action_name: Vai
     call_to_action_link: /resources/backend/nest.js

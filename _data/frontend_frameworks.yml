@@ -2,19 +2,19 @@ style: is-light
 height: is-small
 items:
   - title: Vue
-    icon: fa-vuejs
+    icon: vuejs
     icon_brand: true
     call_to_action_name: Vai
     call_to_action_link: /resources/frontend/vue
 
   - title: React
-    icon: fa-react
+    icon: react
     icon_brand: true
     call_to_action_name: Vai
     call_to_action_link: /resources/frontend/react
 
   - title: Bootstrap
-    icon: fa-bootstrap
+    icon: bootstrap
     icon_brand: true
     call_to_action_name: Vai
     call_to_action_link: /resources/frontend/bootstrap

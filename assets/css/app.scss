@@ -10,6 +10,17 @@
 @import "variables";
 
 // Your custom variables/rules/anything goes here
+$background: $white;
+$primary: $green;
+$secondary: $yellow;
+$dark: $grey-darker;
+$link: lighten($blue, 10);
+$info: $blue;
+
+
+$navbar-background-color: $dark;
+$navbar-item-color: $white;
+$navbar-dropdown-background-color: $dark !important;
 
 // Choose your syntax-highlight theme here
 @import "highlight/dark";

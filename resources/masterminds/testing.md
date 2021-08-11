@@ -56,16 +56,33 @@ Ogni problema è più facile da risolvere quando si stronca alla radice; lo stes
 
 Non bisogna, quindi, finire l'applicazione e POI chiamare un tester, bensì questo va incluso nel progetto fin dall'inizio.
 
-# Tipi di testing
+# Tipi di testing e procedure
 
 Finora abbiamo parlato solo di "tester" in maniera generale, tuttavia, questa disciplina si divide in molte sottocategorie, se volete approfondirle andate a vedere [questo articolo](https://www.perfecto.io/resources/types-of-testing) in materia.
 
-# Manuale VS Automatizzato
+## [Manuale VS Automatizzato](https://www.cleveroad.com/blog/manual-vs-automation-testing)
 
-// TODO
+Quando vogliamo simulare il comportamento di un umano che interagisce con il nostro prodotto il modo migliore sarebbe, beh, un umano; questo approccio, tuttavia, ha delle limitazioni.
 
-___
-Da qui in poi riassumi gli argomenti discussi ieri e presi dalle slide + lista strumenti (come robot framework)
+### Testing manuale
 
-Ha fatto questa repo https://github.com/ludovicobesana/AutomationPractice_RobotFramework
+- Dipende da quante persone hai a disposizione
+- Errore umano
+- Fare tanti test identici di fila risulta quasi impossibile visto che ognuno lo farebbe in modi *leggermente* diversi
+- Garantisce una buona UX
+
+### Testing automatizzato
+
+- Puoi eseguire molti test in parallelo
+- Risultati accurati
+- Tessa procedura ogni volta
+- Non garantisce una buona UX (per farla semplice, *i computer non danno opinioni*)
+
+# Automation
+
+Esistono vari strumenti per scrivere ed eseguire test, uno tra i più utilizzati (ed il preferito di Ludovico e molti altri tester professionisti) è **[Robot Framework](/resources/testing/robotframework)**, uno strumento potente e con una sintassi molto semplice (andrai a scrivere delle normali frasi in inglese) in grado di testare la tua applicazione come se fosse un utente umano.
+
+Usato in congiunzione con uno dei suoi numerosi plugin è possibile testare tutto: da un sito ad un app nativa.
+
+Abbiamo più info sulla pagina dedicata.
 

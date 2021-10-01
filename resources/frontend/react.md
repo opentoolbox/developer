@@ -8,16 +8,16 @@ banner_darken: false
 ---
 # Introduzione
 
-React è un frsamework per il frontend che consente di:
+React è un framework per il frontend che consente di:
 
 - Creare una struttura di base per la nostra web app
-- Contruire i nostri compoenenti e rendere il nostro sito dinamico
+- Costruire i nostri componenti e rendere il nostro sito dinamico
 - Riutilizzare ovunque i nostri componenti
 
 # Integrazioni
 
-- [React redux](https://react-redux.js.org/): avere uno state globale dell'app
-- [React router](https://reactrouter.com/): crere delle rotte all'interno di una single page application
+- [React redux](https://react-redux.js.org/): avere uno state globale dell' app
+- [React router](https://reactrouter.com/): creare delle rotte all' interno di una single page application
 - [React-firebase](https://react-firebase-js.com/): components per integrare firebase più velocemente
 
 # Librerie di componenti e tools

@@ -35,3 +35,4 @@ banner_darken: false
 - [Storybook](https://storybook.js.org/) - **medium** - Crea, esegui test e configura i tuoi componenti/pagine personalizzati.
 - [Awesome react](https://github.com/enaqx/awesome-react) - **info** - GitHub repo per una lista completa delle migliori librerie/addons per React.
 
+<br />

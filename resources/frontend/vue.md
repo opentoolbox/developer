@@ -116,3 +116,5 @@ Molto altro nella documentazione: [Vue 2](https://v2.vuejs.org/v2/guide/) - [Vue
 
 ## Altro
 - [Nuxt](https://nuxtjs.org/) - Il modo definitivo di utilizzare Vue per applicazioni di larga scala, crea applicazioni complesse in pochi minuti
+
+<br />

@@ -14,7 +14,7 @@ check:
 	bundle exec jekyll doctor
 
 start:
-	bundle exec jekyll serve
+	bundle exec jekyll serve --livereload
 
 build:
 	bundle exec jekyll build

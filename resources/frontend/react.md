@@ -8,7 +8,7 @@ banner_darken: false
 ---
 # Introduzione
 
-React è una libreria JavaScript per la creazione di interfacce utente
+**React** è una libreria JavaScript per la creazione di interfacce utente
 
 # Step principali:
 - Creare una struttura di base per la vostra web app.
